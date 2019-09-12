@@ -1,0 +1,47 @@
+------ Execution Trace ------ 
+--N° of Priest:3
+--N° of Cannibals:3
+
+##Estado Atual: Token:0 is <3,3,true>
+Novo estado: Token:1 is <1,1,false>
+Novo estado: Token:2 is <0,1,false>
+Novo estado: Token:3 is <0,2,false>
+
+##Estado Atual: Token:1 is <1,1,false>
+Novo estado: Token:4 is <3,2,true>
+
+##Estado Atual: Token:2 is <0,1,false>
+
+##Estado Atual: Token:3 is <0,2,false>
+
+##Estado Atual: Token:4 is <3,2,true>
+Novo estado: Token:5 is <0,3,false>
+
+##Estado Atual: Token:5 is <0,3,false>
+Novo estado: Token:6 is <3,1,true>
+
+##Estado Atual: Token:6 is <3,1,true>
+Novo estado: Token:7 is <2,2,false>
+
+##Estado Atual: Token:7 is <2,2,false>
+Novo estado: Token:8 is <2,2,true>
+
+##Estado Atual: Token:8 is <2,2,true>
+Novo estado: Token:9 is <3,1,false>
+
+##Estado Atual: Token:9 is <3,1,false>
+Novo estado: Token:10 is <0,3,true>
+
+##Estado Atual: Token:10 is <0,3,true>
+Novo estado: Token:11 is <3,2,false>
+
+##Estado Atual: Token:11 is <3,2,false>
+Novo estado: Token:12 is <1,1,true>
+Novo estado: Token:13 is <0,2,true>
+
+##Estado Atual: Token:12 is <1,1,true>
+Novo estado: Token:14 is <3,3,false>
+
+##Estado Atual: Token:13 is <0,2,true>
+
+ Goal is Located

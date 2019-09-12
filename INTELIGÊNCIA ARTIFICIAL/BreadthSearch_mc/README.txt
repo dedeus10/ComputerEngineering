@@ -1,0 +1,30 @@
+--------------------------------------------------------------------------------
+--                                                                            --
+--                         INTELIGÊNCIA ARTIFICIAL                            --
+--                        ENGENHARIA DE COMPUTAÇÃO                            --
+--                     UNIVERSIDADE FEDERAL DE SANTA MARIA                    --
+--------------------------------------------------------------------------------
+--
+-- Design      : Breadth Search
+-- Author      : Luis Felipe de Deus
+--
+--------------------------------------------------------------------------------
+--
+-- Created     : 2 Abr 2019
+--
+--------------------------------------------------------------------------------
+--
+--  Description : Este projeto aborda um algoritmo de busca em largura
+--                  aplicado ao problema dos missionarios e canibais.
+--
+--
+--                *O barco so pode carregar dois individuos                
+--                *Em nenhuma das margens pode haver mais canibais que missionarios
+--                  a não ser que o numero de missionarios seja 0
+--
+-- Objective: Se existe, encontrar a melhor solução para o problema explorando
+--            o espaço de busca.
+--
+--------------------------------------------------------------------------------
+-- ORIENTAÇOES: Executar em modo admin o compilador, garantir que possa criar
+--                arquivos no diretorio em questão

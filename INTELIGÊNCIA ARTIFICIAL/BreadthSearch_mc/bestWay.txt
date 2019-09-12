@@ -1,0 +1,27 @@
+##### Grafo Print ###### 
+null
+Token:0 is <3,3,true>
+
+Token:1 is <1,1,false>
+
+Token:4 is <3,2,true>
+
+Token:5 is <0,3,false>
+
+Token:6 is <3,1,true>
+
+Token:7 is <2,2,false>
+
+Token:8 is <2,2,true>
+
+Token:9 is <3,1,false>
+
+Token:10 is <0,3,true>
+
+Token:11 is <3,2,false>
+
+Token:12 is <1,1,true>
+
+Token:14 is <3,3,false>
+
+ --Total time for computation: 7ms
