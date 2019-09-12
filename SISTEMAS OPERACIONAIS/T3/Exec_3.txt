@@ -1,0 +1,139 @@
+-Luis Felipe de Deus
+	Engenharia de Computação
+
+
+ARQUIVO QUE CONTEM A SAÍDA DE DADOS DA EXECUCAO 
+
+
+12 Processos terminaram sua execucao
+9 Processos completaram o I/O
+100 Processos foram criados
+O tempo de TURNAROUND medio e': 49.25
+O tempo de ESPERA medio e': 26.16
+
+--------------TEMPO DE ESPERA POR PROCESSO:--------------
+O processo [0] teve tempo de ESPERA TOTAL de: 21
+O processo [1] teve tempo de ESPERA TOTAL de: 3
+O processo [2] teve tempo de ESPERA TOTAL de: 6
+O processo [3] teve tempo de ESPERA TOTAL de: 57
+O processo [4] teve tempo de ESPERA TOTAL de: 12
+O processo [5] teve tempo de ESPERA TOTAL de: 14
+O processo [6] teve tempo de ESPERA TOTAL de: 13
+O processo [7] teve tempo de ESPERA TOTAL de: 85
+O processo [8] teve tempo de ESPERA TOTAL de: 19
+O processo [9] teve tempo de ESPERA TOTAL de: 20
+O processo [10] teve tempo de ESPERA TOTAL de: 20
+O processo [11] teve tempo de ESPERA TOTAL de: 20
+O processo [12] teve tempo de ESPERA TOTAL de: 21
+O processo [13] teve tempo de ESPERA TOTAL de: 23
+O processo [14] teve tempo de ESPERA TOTAL de: 122
+O processo [15] teve tempo de ESPERA TOTAL de: 26
+O processo [16] teve tempo de ESPERA TOTAL de: 29
+O processo [17] teve tempo de ESPERA TOTAL de: 32
+O processo [18] teve tempo de ESPERA TOTAL de: 36
+O processo [19] teve tempo de ESPERA TOTAL de: 36
+O processo [20] teve tempo de ESPERA TOTAL de: 37
+O processo [21] teve tempo de ESPERA TOTAL de: 40
+O processo [22] teve tempo de ESPERA TOTAL de: 43
+O processo [23] teve tempo de ESPERA TOTAL de: 52
+O processo [24] teve tempo de ESPERA TOTAL de: 52
+O processo [25] teve tempo de ESPERA TOTAL de: 53
+O processo [26] teve tempo de ESPERA TOTAL de: 56
+O processo [27] teve tempo de ESPERA TOTAL de: 60
+O processo [28] teve tempo de ESPERA TOTAL de: 63
+O processo [29] teve tempo de ESPERA TOTAL de: 64
+O processo [30] teve tempo de ESPERA TOTAL de: 63
+O processo [31] teve tempo de ESPERA TOTAL de: 62
+O processo [32] teve tempo de ESPERA TOTAL de: 65
+O processo [33] teve tempo de ESPERA TOTAL de: 74
+O processo [34] teve tempo de ESPERA TOTAL de: 73
+O processo [35] teve tempo de ESPERA TOTAL de: 75
+O processo [36] teve tempo de ESPERA TOTAL de: 78
+O processo [37] teve tempo de ESPERA TOTAL de: 82
+O processo [38] teve tempo de ESPERA TOTAL de: 85
+O processo [39] teve tempo de ESPERA TOTAL de: 88
+O processo [40] teve tempo de ESPERA TOTAL de: 91
+O processo [41] teve tempo de ESPERA TOTAL de: 95
+O processo [42] teve tempo de ESPERA TOTAL de: 97
+O processo [43] teve tempo de ESPERA TOTAL de: 96
+O processo [44] teve tempo de ESPERA TOTAL de: 99
+O processo [45] teve tempo de ESPERA TOTAL de: 102
+O processo [46] teve tempo de ESPERA TOTAL de: 106
+Os demais processos tiveram tempo de Espera 0 (zero), ou seja, nao ganharam a CPU
+
+--------------TEMPO DE TURNAROUND POR PROCESSO:--------------
+O processo [4] teve tempo de TURNAROUND de: 15
+O processo [8] teve tempo de TURNAROUND de: 21
+O processo [10] teve tempo de TURNAROUND de: 21
+O processo [11] teve tempo de TURNAROUND de: 20
+O processo [12] teve tempo de TURNAROUND de: 24
+O processo [18] teve tempo de TURNAROUND de: 37
+O processo [23] teve tempo de TURNAROUND de: 53
+O processo [28] teve tempo de TURNAROUND de: 65
+O processo [29] teve tempo de TURNAROUND de: 64
+O processo [33] teve tempo de TURNAROUND de: 74
+O processo [41] teve tempo de TURNAROUND de: 98
+O processo [43] teve tempo de TURNAROUND de: 99
+
+--------------TEMPO DE USO DE CPU POR PROCESSO:--------------
+O processo [0] teve tempo de CPU de: 5
+O processo [1] teve tempo de CPU de: 5
+O processo [2] teve tempo de CPU de: 5
+O processo [3] teve tempo de CPU de: 10
+O processo [4] teve tempo de CPU de: 4
+O processo [5] teve tempo de CPU de: 1
+O processo [6] teve tempo de CPU de: 5
+O processo [7] teve tempo de CPU de: 10
+O processo [8] teve tempo de CPU de: 3
+O processo [9] teve tempo de CPU de: 2
+O processo [10] teve tempo de CPU de: 2
+O processo [11] teve tempo de CPU de: 1
+O processo [12] teve tempo de CPU de: 4
+O processo [13] teve tempo de CPU de: 2
+O processo [14] teve tempo de CPU de: 6
+O processo [15] teve tempo de CPU de: 5
+O processo [16] teve tempo de CPU de: 5
+O processo [17] teve tempo de CPU de: 6
+O processo [18] teve tempo de CPU de: 2
+O processo [19] teve tempo de CPU de: 3
+O processo [20] teve tempo de CPU de: 5
+O processo [21] teve tempo de CPU de: 5
+O processo [22] teve tempo de CPU de: 6
+O processo [23] teve tempo de CPU de: 2
+O processo [24] teve tempo de CPU de: 3
+O processo [25] teve tempo de CPU de: 5
+O processo [26] teve tempo de CPU de: 6
+O processo [27] teve tempo de CPU de: 5
+O processo [28] teve tempo de CPU de: 3
+O processo [29] teve tempo de CPU de: 1
+O processo [30] teve tempo de CPU de: 1
+O processo [31] teve tempo de CPU de: 5
+O processo [32] teve tempo de CPU de: 6
+O processo [33] teve tempo de CPU de: 1
+O processo [34] teve tempo de CPU de: 4
+O processo [35] teve tempo de CPU de: 5
+O processo [36] teve tempo de CPU de: 6
+O processo [37] teve tempo de CPU de: 5
+O processo [38] teve tempo de CPU de: 5
+O processo [39] teve tempo de CPU de: 5
+O processo [40] teve tempo de CPU de: 6
+O processo [41] teve tempo de CPU de: 4
+O processo [42] teve tempo de CPU de: 1
+O processo [43] teve tempo de CPU de: 4
+O processo [44] teve tempo de CPU de: 5
+O processo [45] teve tempo de CPU de: 6
+O processo [46] teve tempo de CPU de: 2
+Os demais processos nao ganharam a CPU
+
+--------------RESULTADOS & PORCENTAGENS:--------------
+Tempo que a CPU ficou ociosa foi 2, equivalente a 1.00 % 
+Tempo que a CPU foi utilizada foi 198, equivalente a 99.00 % 
+Tempo que utilizado para I/O foi 196, equivalente a 98.00 % 
+
+------Informacoes sobre as Filas------ 
+O tamanho media da Fila Arrive e' 13.00
+O tamanho media da Fila Ready e' 15.00
+O tamanho media da Lista de I/O e' 13.00
+O tempo medio de espera na ARRIVE foi de 99
+O tempo medio de espera na READY foi de 49
+O tempo medio de espera na LISTA foi de 35

@@ -1,0 +1,2855 @@
+-Luis Felipe de Deus
+	Engenharia de Computação
+
+
+ARQUIVO QUE CONTEM O TRACE DE EXECUCAO 
+
+
+GT is Global Time Counter
+O Tempo Total e' 50 
+O Grau de Multiprogramacao e' 10 
+A Fatia do Round Robin e' 5 
+
+GERANDO ALEATORIOEDADES PARA A EXEC. 
+O intervalo de geracao de processos e': 1 unidades de tempo 
+O tempo de uso do I/O por processo e':  2 unidades de tempo 
+O intervalo de solicitacoes de I/O e':  6 unidades de tempo 
+
+GT[0]->O ID criado e' 0 
+GT[0]->O Burst Time do ID [0] e' 1 
+GT[0]->A Prioridade do ID [0]e' 19 
+
+GT[0]->Processo inserido na ARRIVE! ID:[0]
+GT[0]->Processo inserido ID:[0]
+GT[0]->Processo ID:[0] esta no Estado: NEW
+
+GT[0]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[0]
+--------------------------------------
+
+GT[0]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[0]->Mostrando os Processos da READY: 
+--------------------------------------
+--------------------------------------
+
+GT[0]->Existem 0 processos na READY
+GT[0]->CPU OCIOSA
+GT[0]->I/O OCIOSA
+
+
+###########FIM DA [0] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[1]->O ID criado e' 1 
+GT[1]->O Burst Time do ID [1] e' 0 
+GT[1]->A Prioridade do ID [1]e' 12 
+
+GT[1]->Processo inserido na ARRIVE! ID:[1]
+GT[1]->Processo inserido ID:[1]
+GT[1]->Processo ID:[1] esta no Estado: NEW
+
+GT[1]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[0]
+Posicao 2, contem o Processo ID:[1]
+--------------------------------------
+
+GT[1]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[1]->Mostrando os Processos da READY: 
+--------------------------------------
+--------------------------------------
+
+GT[1]->Existem 0 processos na READY
+
+GT[1]->Excluido da ARRIVE ID:[0]
+GT[1]->Processo ID:[0] esta no Estado: READY
+
+GT[1]->Processo inserido na READY! ID:[0]
+
+GT[1]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[0]
+--------------------------------------
+GT[1]->CPU OCIOSA
+GT[1]->I/O OCIOSA
+
+
+###########FIM DA [1] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[2]->O ID criado e' 2 
+GT[2]->O Burst Time do ID [2] e' 1 
+GT[2]->A Prioridade do ID [2]e' 18 
+
+GT[2]->Processo inserido na ARRIVE! ID:[2]
+GT[2]->Processo inserido ID:[2]
+GT[2]->Processo ID:[2] esta no Estado: NEW
+
+GT[2]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[1]
+Posicao 2, contem o Processo ID:[2]
+--------------------------------------
+
+GT[2]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[2]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[0]
+--------------------------------------
+
+GT[2]->Existem 1 processos na READY
+
+GT[2]->Excluido da ARRIVE ID:[1]
+GT[2]->Processo ID:[1] esta no Estado: READY
+
+GT[2]->Processo inserido na READY! ID:[1]
+
+GT[2]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[0]
+Posicao 2, contem o Processo ID:[1]
+--------------------------------------
+
+GT[2]->Excluido da READY ID:[0]
+
+GT[2]->Tempo de espera do Processo ID:[0] foi: 2 
+
+GT[2]->Executando na CPU ID [0]
+GT[2]->Processo ID:[0] esta no Estado: RUNNING
+GT[2]->I/O OCIOSA
+
+
+###########FIM DA [2] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[3]->O ID criado e' 3 
+GT[3]->O Burst Time do ID [3] e' 9 
+GT[3]->A Prioridade do ID [3]e' 4 
+
+GT[3]->Processo inserido na ARRIVE! ID:[3]
+GT[3]->Processo inserido ID:[3]
+GT[3]->Processo ID:[3] esta no Estado: NEW
+
+GT[3]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[2]
+Posicao 2, contem o Processo ID:[3]
+--------------------------------------
+
+GT[3]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[3]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[1]
+--------------------------------------
+
+GT[3]->Existem 1 processos na READY
+
+GT[3]->Excluido da ARRIVE ID:[2]
+GT[3]->Processo ID:[2] esta no Estado: READY
+
+GT[3]->Processo inserido na READY! ID:[2]
+
+GT[3]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[1]
+Posicao 2, contem o Processo ID:[2]
+--------------------------------------
+
+GT[3]->Executando na CPU ID [0]
+GT[3]->Processo ID:[0] esta no Estado: RUNNING
+
+
+GT[3]->Processo [0] FINALIZADO 
+
+GT[3]->Processo ID:[0] esta no Estado: TERMINATTED
+GT[3]->Tempo de TURNAROUND: 3 
+GT[3]->I/O OCIOSA
+
+
+###########FIM DA [3] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[4]->O ID criado e' 4 
+GT[4]->O Burst Time do ID [4] e' 1 
+GT[4]->A Prioridade do ID [4]e' 6 
+
+GT[4]->Processo inserido na ARRIVE! ID:[4]
+GT[4]->Processo inserido ID:[4]
+GT[4]->Processo ID:[4] esta no Estado: NEW
+
+GT[4]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[3]
+Posicao 2, contem o Processo ID:[4]
+--------------------------------------
+
+GT[4]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[4]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[1]
+Posicao 2, contem o Processo ID:[2]
+--------------------------------------
+
+GT[4]->Existem 2 processos na READY
+
+GT[4]->Excluido da ARRIVE ID:[3]
+GT[4]->Processo ID:[3] esta no Estado: READY
+
+GT[4]->Processo inserido na READY! ID:[3]
+
+GT[4]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[1]
+Posicao 2, contem o Processo ID:[2]
+Posicao 3, contem o Processo ID:[3]
+--------------------------------------
+
+GT[4]->Excluido da READY ID:[1]
+
+GT[4]->Tempo de espera do Processo ID:[1] foi: 3 
+
+GT[4]->Executando na CPU ID [1]
+GT[4]->Processo ID:[1] esta no Estado: RUNNING
+
+
+GT[4]->Processo [1] FINALIZADO 
+
+GT[4]->Processo ID:[1] esta no Estado: TERMINATTED
+GT[4]->Tempo de TURNAROUND: 3 
+GT[4]->I/O OCIOSA
+
+
+###########FIM DA [4] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[5]->O ID criado e' 5 
+GT[5]->O Burst Time do ID [5] e' 1 
+GT[5]->A Prioridade do ID [5]e' 7 
+
+GT[5]->Processo inserido na ARRIVE! ID:[5]
+GT[5]->Processo inserido ID:[5]
+GT[5]->Processo ID:[5] esta no Estado: NEW
+
+GT[5]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[4]
+Posicao 2, contem o Processo ID:[5]
+--------------------------------------
+
+GT[5]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[5]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[2]
+Posicao 2, contem o Processo ID:[3]
+--------------------------------------
+
+GT[5]->Existem 2 processos na READY
+
+GT[5]->Excluido da ARRIVE ID:[4]
+GT[5]->Processo ID:[4] esta no Estado: READY
+
+GT[5]->Processo inserido na READY! ID:[4]
+
+GT[5]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[2]
+Posicao 2, contem o Processo ID:[3]
+Posicao 3, contem o Processo ID:[4]
+--------------------------------------
+
+GT[5]->Excluido da READY ID:[2]
+
+GT[5]->Tempo de espera do Processo ID:[2] foi: 3 
+
+GT[5]->Executando na CPU ID [2]
+GT[5]->Processo ID:[2] esta no Estado: RUNNING
+GT[5]->Processo [2] vai deixar a CPU
+
+GT[5]->O numero de elementos na Lista de I/O e' 0 
+GT[5]->Processo ID:[2] vai para o Estado: BLOCKED
+GT[5]->Na proxima unidade de tempo, ID [2] vai ocupar I/O 
+
+
+###########FIM DA [5] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[6]->O ID criado e' 6 
+GT[6]->O Burst Time do ID [6] e' 3 
+GT[6]->A Prioridade do ID [6]e' 10 
+
+GT[6]->Processo inserido na ARRIVE! ID:[6]
+GT[6]->Processo inserido ID:[6]
+GT[6]->Processo ID:[6] esta no Estado: NEW
+
+GT[6]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[5]
+Posicao 2, contem o Processo ID:[6]
+--------------------------------------
+
+GT[6]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[6]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[3]
+Posicao 2, contem o Processo ID:[4]
+--------------------------------------
+
+GT[6]->Existem 2 processos na READY
+
+GT[6]->Excluido da ARRIVE ID:[5]
+GT[6]->Processo ID:[5] esta no Estado: READY
+
+GT[6]->Processo inserido na READY! ID:[5]
+
+GT[6]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[3]
+Posicao 2, contem o Processo ID:[4]
+Posicao 3, contem o Processo ID:[5]
+--------------------------------------
+
+GT[6]->Excluido da READY ID:[3]
+
+GT[6]->Tempo de espera do Processo ID:[3] foi: 3 
+
+GT[6]->Executando na CPU ID [3]
+GT[6]->Processo ID:[3] esta no Estado: RUNNING
+GT[6]->Processo ID:[2] esta no Estado: BLOCKED
+
+
+###########FIM DA [6] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[7]->O ID criado e' 7 
+GT[7]->O Burst Time do ID [7] e' 9 
+GT[7]->A Prioridade do ID [7]e' 0 
+
+GT[7]->Processo inserido na ARRIVE! ID:[7]
+GT[7]->Processo inserido ID:[7]
+GT[7]->Processo ID:[7] esta no Estado: NEW
+
+GT[7]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[6]
+Posicao 2, contem o Processo ID:[7]
+--------------------------------------
+
+GT[7]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[7]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[4]
+Posicao 2, contem o Processo ID:[5]
+--------------------------------------
+
+GT[7]->Existem 2 processos na READY
+
+GT[7]->Excluido da ARRIVE ID:[6]
+GT[7]->Processo ID:[6] esta no Estado: READY
+
+GT[7]->Processo inserido na READY! ID:[6]
+
+GT[7]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[4]
+Posicao 2, contem o Processo ID:[5]
+Posicao 3, contem o Processo ID:[6]
+--------------------------------------
+
+GT[7]->Executando na CPU ID [3]
+GT[7]->Processo ID:[3] esta no Estado: RUNNING
+GT[7]->Processo [2] esta DEIXANDO IO 
+
+GT[7]->Processo inserido na READY! ID:[2]
+
+GT[7]->O numero de elementos na Lista de I/O e' 0 
+
+
+###########FIM DA [7] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[8]->O ID criado e' 8 
+GT[8]->O Burst Time do ID [8] e' 3 
+GT[8]->A Prioridade do ID [8]e' 3 
+
+GT[8]->Processo inserido na ARRIVE! ID:[8]
+GT[8]->Processo inserido ID:[8]
+GT[8]->Processo ID:[8] esta no Estado: NEW
+
+GT[8]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[7]
+Posicao 2, contem o Processo ID:[8]
+--------------------------------------
+
+GT[8]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[8]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[4]
+Posicao 2, contem o Processo ID:[5]
+Posicao 3, contem o Processo ID:[6]
+Posicao 4, contem o Processo ID:[2]
+--------------------------------------
+
+GT[8]->Existem 4 processos na READY
+
+GT[8]->Excluido da ARRIVE ID:[7]
+GT[8]->Processo ID:[7] esta no Estado: READY
+
+GT[8]->Processo inserido na READY! ID:[7]
+
+GT[8]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[4]
+Posicao 2, contem o Processo ID:[5]
+Posicao 3, contem o Processo ID:[6]
+Posicao 4, contem o Processo ID:[2]
+Posicao 5, contem o Processo ID:[7]
+--------------------------------------
+
+GT[8]->Executando na CPU ID [3]
+GT[8]->Processo ID:[3] esta no Estado: RUNNING
+GT[8]->I/O OCIOSA
+
+
+###########FIM DA [8] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[9]->O ID criado e' 9 
+GT[9]->O Burst Time do ID [9] e' 2 
+GT[9]->A Prioridade do ID [9]e' 13 
+
+GT[9]->Processo inserido na ARRIVE! ID:[9]
+GT[9]->Processo inserido ID:[9]
+GT[9]->Processo ID:[9] esta no Estado: NEW
+
+GT[9]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[8]
+Posicao 2, contem o Processo ID:[9]
+--------------------------------------
+
+GT[9]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[9]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[4]
+Posicao 2, contem o Processo ID:[5]
+Posicao 3, contem o Processo ID:[6]
+Posicao 4, contem o Processo ID:[2]
+Posicao 5, contem o Processo ID:[7]
+--------------------------------------
+
+GT[9]->Existem 5 processos na READY
+
+GT[9]->Excluido da ARRIVE ID:[8]
+GT[9]->Processo ID:[8] esta no Estado: READY
+
+GT[9]->Processo inserido na READY! ID:[8]
+
+GT[9]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[4]
+Posicao 2, contem o Processo ID:[5]
+Posicao 3, contem o Processo ID:[6]
+Posicao 4, contem o Processo ID:[2]
+Posicao 5, contem o Processo ID:[7]
+Posicao 6, contem o Processo ID:[8]
+--------------------------------------
+
+GT[9]->Executando na CPU ID [3]
+GT[9]->Processo ID:[3] esta no Estado: RUNNING
+GT[9]->I/O OCIOSA
+
+
+###########FIM DA [9] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[10]->O ID criado e' 10 
+GT[10]->O Burst Time do ID [10] e' 1 
+GT[10]->A Prioridade do ID [10]e' 12 
+
+GT[10]->Processo inserido na ARRIVE! ID:[10]
+GT[10]->Processo inserido ID:[10]
+GT[10]->Processo ID:[10] esta no Estado: NEW
+
+GT[10]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[9]
+Posicao 2, contem o Processo ID:[10]
+--------------------------------------
+
+GT[10]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[10]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[4]
+Posicao 2, contem o Processo ID:[5]
+Posicao 3, contem o Processo ID:[6]
+Posicao 4, contem o Processo ID:[2]
+Posicao 5, contem o Processo ID:[7]
+Posicao 6, contem o Processo ID:[8]
+--------------------------------------
+
+GT[10]->Existem 6 processos na READY
+
+GT[10]->Excluido da ARRIVE ID:[9]
+GT[10]->Processo ID:[9] esta no Estado: READY
+
+GT[10]->Processo inserido na READY! ID:[9]
+
+GT[10]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[4]
+Posicao 2, contem o Processo ID:[5]
+Posicao 3, contem o Processo ID:[6]
+Posicao 4, contem o Processo ID:[2]
+Posicao 5, contem o Processo ID:[7]
+Posicao 6, contem o Processo ID:[8]
+Posicao 7, contem o Processo ID:[9]
+--------------------------------------
+
+GT[10]->Executando na CPU ID [3]
+GT[10]->Processo ID:[3] esta no Estado: RUNNING
+GT[10]->I/O OCIOSA
+
+
+###########FIM DA [10] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[11]->O ID criado e' 11 
+GT[11]->O Burst Time do ID [11] e' 6 
+GT[11]->A Prioridade do ID [11]e' 17 
+
+GT[11]->Processo inserido na ARRIVE! ID:[11]
+GT[11]->Processo inserido ID:[11]
+GT[11]->Processo ID:[11] esta no Estado: NEW
+
+GT[11]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[10]
+Posicao 2, contem o Processo ID:[11]
+--------------------------------------
+
+GT[11]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[11]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[4]
+Posicao 2, contem o Processo ID:[5]
+Posicao 3, contem o Processo ID:[6]
+Posicao 4, contem o Processo ID:[2]
+Posicao 5, contem o Processo ID:[7]
+Posicao 6, contem o Processo ID:[8]
+Posicao 7, contem o Processo ID:[9]
+--------------------------------------
+
+GT[11]->Existem 7 processos na READY
+
+GT[11]->Excluido da ARRIVE ID:[10]
+GT[11]->Processo ID:[10] esta no Estado: READY
+
+GT[11]->Processo inserido na READY! ID:[10]
+
+GT[11]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[4]
+Posicao 2, contem o Processo ID:[5]
+Posicao 3, contem o Processo ID:[6]
+Posicao 4, contem o Processo ID:[2]
+Posicao 5, contem o Processo ID:[7]
+Posicao 6, contem o Processo ID:[8]
+Posicao 7, contem o Processo ID:[9]
+Posicao 8, contem o Processo ID:[10]
+--------------------------------------
+
+GT[11]->Executando na CPU ID [3]
+GT[11]->Processo ID:[3] esta no Estado: RUNNING
+
+
+GT[11]->Processo [3] ACABOU O QUANTUM TIME 
+
+GT[11]->Processo ID:[3] esta no Estado: READY
+
+GT[11]->Processo inserido na READY! ID:[3]
+GT[11]->I/O OCIOSA
+
+
+###########FIM DA [11] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[12]->O ID criado e' 12 
+GT[12]->O Burst Time do ID [12] e' 6 
+GT[12]->A Prioridade do ID [12]e' 9 
+
+GT[12]->Processo inserido na ARRIVE! ID:[12]
+GT[12]->Processo inserido ID:[12]
+GT[12]->Processo ID:[12] esta no Estado: NEW
+
+GT[12]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[11]
+Posicao 2, contem o Processo ID:[12]
+--------------------------------------
+
+GT[12]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[12]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[4]
+Posicao 2, contem o Processo ID:[5]
+Posicao 3, contem o Processo ID:[6]
+Posicao 4, contem o Processo ID:[2]
+Posicao 5, contem o Processo ID:[7]
+Posicao 6, contem o Processo ID:[8]
+Posicao 7, contem o Processo ID:[9]
+Posicao 8, contem o Processo ID:[10]
+Posicao 9, contem o Processo ID:[3]
+--------------------------------------
+
+GT[12]->Existem 9 processos na READY
+
+GT[12]->Excluido da ARRIVE ID:[11]
+GT[12]->Processo ID:[11] esta no Estado: READY
+
+GT[12]->Processo inserido na READY! ID:[11]
+
+GT[12]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[4]
+Posicao 2, contem o Processo ID:[5]
+Posicao 3, contem o Processo ID:[6]
+Posicao 4, contem o Processo ID:[2]
+Posicao 5, contem o Processo ID:[7]
+Posicao 6, contem o Processo ID:[8]
+Posicao 7, contem o Processo ID:[9]
+Posicao 8, contem o Processo ID:[10]
+Posicao 9, contem o Processo ID:[3]
+Posicao 10, contem o Processo ID:[11]
+--------------------------------------
+
+GT[12]->Excluido da READY ID:[4]
+
+GT[12]->Tempo de espera do Processo ID:[4] foi: 8 
+
+GT[12]->Executando na CPU ID [4]
+GT[12]->Processo ID:[4] esta no Estado: RUNNING
+GT[12]->I/O OCIOSA
+
+
+###########FIM DA [12] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[13]->O ID criado e' 13 
+GT[13]->O Burst Time do ID [13] e' 7 
+GT[13]->A Prioridade do ID [13]e' 6 
+
+GT[13]->Processo inserido na ARRIVE! ID:[13]
+GT[13]->Processo inserido ID:[13]
+GT[13]->Processo ID:[13] esta no Estado: NEW
+
+GT[13]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[12]
+Posicao 2, contem o Processo ID:[13]
+--------------------------------------
+
+GT[13]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[13]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[5]
+Posicao 2, contem o Processo ID:[6]
+Posicao 3, contem o Processo ID:[2]
+Posicao 4, contem o Processo ID:[7]
+Posicao 5, contem o Processo ID:[8]
+Posicao 6, contem o Processo ID:[9]
+Posicao 7, contem o Processo ID:[10]
+Posicao 8, contem o Processo ID:[3]
+Posicao 9, contem o Processo ID:[11]
+--------------------------------------
+
+GT[13]->Existem 9 processos na READY
+
+GT[13]->Executando na CPU ID [4]
+GT[13]->Processo ID:[4] esta no Estado: RUNNING
+
+
+GT[13]->Processo [4] FINALIZADO 
+
+GT[13]->Processo ID:[4] esta no Estado: TERMINATTED
+GT[13]->Tempo de TURNAROUND: 9 
+GT[13]->I/O OCIOSA
+
+
+###########FIM DA [13] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[14]->O ID criado e' 14 
+GT[14]->O Burst Time do ID [14] e' 3 
+GT[14]->A Prioridade do ID [14]e' 8 
+
+GT[14]->Processo inserido na ARRIVE! ID:[14]
+GT[14]->Processo inserido ID:[14]
+GT[14]->Processo ID:[14] esta no Estado: NEW
+
+GT[14]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[12]
+Posicao 2, contem o Processo ID:[13]
+Posicao 3, contem o Processo ID:[14]
+--------------------------------------
+
+GT[14]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[14]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[5]
+Posicao 2, contem o Processo ID:[6]
+Posicao 3, contem o Processo ID:[2]
+Posicao 4, contem o Processo ID:[7]
+Posicao 5, contem o Processo ID:[8]
+Posicao 6, contem o Processo ID:[9]
+Posicao 7, contem o Processo ID:[10]
+Posicao 8, contem o Processo ID:[3]
+Posicao 9, contem o Processo ID:[11]
+--------------------------------------
+
+GT[14]->Existem 9 processos na READY
+
+GT[14]->Excluido da ARRIVE ID:[12]
+GT[14]->Processo ID:[12] esta no Estado: READY
+
+GT[14]->Processo inserido na READY! ID:[12]
+
+GT[14]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[5]
+Posicao 2, contem o Processo ID:[6]
+Posicao 3, contem o Processo ID:[2]
+Posicao 4, contem o Processo ID:[7]
+Posicao 5, contem o Processo ID:[8]
+Posicao 6, contem o Processo ID:[9]
+Posicao 7, contem o Processo ID:[10]
+Posicao 8, contem o Processo ID:[3]
+Posicao 9, contem o Processo ID:[11]
+Posicao 10, contem o Processo ID:[12]
+--------------------------------------
+
+GT[14]->Excluido da READY ID:[5]
+
+GT[14]->Tempo de espera do Processo ID:[5] foi: 9 
+
+GT[14]->Executando na CPU ID [5]
+GT[14]->Processo ID:[5] esta no Estado: RUNNING
+GT[14]->I/O OCIOSA
+
+
+###########FIM DA [14] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[15]->O ID criado e' 15 
+GT[15]->O Burst Time do ID [15] e' 6 
+GT[15]->A Prioridade do ID [15]e' 5 
+
+GT[15]->Processo inserido na ARRIVE! ID:[15]
+GT[15]->Processo inserido ID:[15]
+GT[15]->Processo ID:[15] esta no Estado: NEW
+
+GT[15]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[13]
+Posicao 2, contem o Processo ID:[14]
+Posicao 3, contem o Processo ID:[15]
+--------------------------------------
+
+GT[15]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[15]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[6]
+Posicao 2, contem o Processo ID:[2]
+Posicao 3, contem o Processo ID:[7]
+Posicao 4, contem o Processo ID:[8]
+Posicao 5, contem o Processo ID:[9]
+Posicao 6, contem o Processo ID:[10]
+Posicao 7, contem o Processo ID:[3]
+Posicao 8, contem o Processo ID:[11]
+Posicao 9, contem o Processo ID:[12]
+--------------------------------------
+
+GT[15]->Existem 9 processos na READY
+
+GT[15]->Executando na CPU ID [5]
+GT[15]->Processo ID:[5] esta no Estado: RUNNING
+
+
+GT[15]->Processo [5] FINALIZADO 
+
+GT[15]->Processo ID:[5] esta no Estado: TERMINATTED
+GT[15]->Tempo de TURNAROUND: 10 
+GT[15]->I/O OCIOSA
+
+
+###########FIM DA [15] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[16]->O ID criado e' 16 
+GT[16]->O Burst Time do ID [16] e' 8 
+GT[16]->A Prioridade do ID [16]e' 18 
+
+GT[16]->Processo inserido na ARRIVE! ID:[16]
+GT[16]->Processo inserido ID:[16]
+GT[16]->Processo ID:[16] esta no Estado: NEW
+
+GT[16]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[13]
+Posicao 2, contem o Processo ID:[14]
+Posicao 3, contem o Processo ID:[15]
+Posicao 4, contem o Processo ID:[16]
+--------------------------------------
+
+GT[16]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[16]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[6]
+Posicao 2, contem o Processo ID:[2]
+Posicao 3, contem o Processo ID:[7]
+Posicao 4, contem o Processo ID:[8]
+Posicao 5, contem o Processo ID:[9]
+Posicao 6, contem o Processo ID:[10]
+Posicao 7, contem o Processo ID:[3]
+Posicao 8, contem o Processo ID:[11]
+Posicao 9, contem o Processo ID:[12]
+--------------------------------------
+
+GT[16]->Existem 9 processos na READY
+
+GT[16]->Excluido da ARRIVE ID:[13]
+GT[16]->Processo ID:[13] esta no Estado: READY
+
+GT[16]->Processo inserido na READY! ID:[13]
+
+GT[16]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[6]
+Posicao 2, contem o Processo ID:[2]
+Posicao 3, contem o Processo ID:[7]
+Posicao 4, contem o Processo ID:[8]
+Posicao 5, contem o Processo ID:[9]
+Posicao 6, contem o Processo ID:[10]
+Posicao 7, contem o Processo ID:[3]
+Posicao 8, contem o Processo ID:[11]
+Posicao 9, contem o Processo ID:[12]
+Posicao 10, contem o Processo ID:[13]
+--------------------------------------
+
+GT[16]->Excluido da READY ID:[6]
+
+GT[16]->Tempo de espera do Processo ID:[6] foi: 10 
+
+GT[16]->Executando na CPU ID [6]
+GT[16]->Processo ID:[6] esta no Estado: RUNNING
+GT[16]->I/O OCIOSA
+
+
+###########FIM DA [16] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[17]->O ID criado e' 17 
+GT[17]->O Burst Time do ID [17] e' 7 
+GT[17]->A Prioridade do ID [17]e' 19 
+
+GT[17]->Processo inserido na ARRIVE! ID:[17]
+GT[17]->Processo inserido ID:[17]
+GT[17]->Processo ID:[17] esta no Estado: NEW
+
+GT[17]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[14]
+Posicao 2, contem o Processo ID:[15]
+Posicao 3, contem o Processo ID:[16]
+Posicao 4, contem o Processo ID:[17]
+--------------------------------------
+
+GT[17]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[17]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[2]
+Posicao 2, contem o Processo ID:[7]
+Posicao 3, contem o Processo ID:[8]
+Posicao 4, contem o Processo ID:[9]
+Posicao 5, contem o Processo ID:[10]
+Posicao 6, contem o Processo ID:[3]
+Posicao 7, contem o Processo ID:[11]
+Posicao 8, contem o Processo ID:[12]
+Posicao 9, contem o Processo ID:[13]
+--------------------------------------
+
+GT[17]->Existem 9 processos na READY
+
+GT[17]->Executando na CPU ID [6]
+GT[17]->Processo ID:[6] esta no Estado: RUNNING
+GT[17]->Processo [6] vai deixar a CPU
+
+GT[17]->O numero de elementos na Lista de I/O e' 0 
+GT[17]->Processo ID:[6] vai para o Estado: BLOCKED
+GT[17]->Na proxima unidade de tempo, ID [6] vai ocupar I/O 
+
+
+###########FIM DA [17] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[18]->O ID criado e' 18 
+GT[18]->O Burst Time do ID [18] e' 8 
+GT[18]->A Prioridade do ID [18]e' 6 
+
+GT[18]->Processo inserido na ARRIVE! ID:[18]
+GT[18]->Processo inserido ID:[18]
+GT[18]->Processo ID:[18] esta no Estado: NEW
+
+GT[18]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[14]
+Posicao 2, contem o Processo ID:[15]
+Posicao 3, contem o Processo ID:[16]
+Posicao 4, contem o Processo ID:[17]
+Posicao 5, contem o Processo ID:[18]
+--------------------------------------
+
+GT[18]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[18]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[2]
+Posicao 2, contem o Processo ID:[7]
+Posicao 3, contem o Processo ID:[8]
+Posicao 4, contem o Processo ID:[9]
+Posicao 5, contem o Processo ID:[10]
+Posicao 6, contem o Processo ID:[3]
+Posicao 7, contem o Processo ID:[11]
+Posicao 8, contem o Processo ID:[12]
+Posicao 9, contem o Processo ID:[13]
+--------------------------------------
+
+GT[18]->Existem 9 processos na READY
+
+GT[18]->Excluido da READY ID:[2]
+
+GT[18]->Tempo de espera do Processo ID:[2] foi: 11 
+
+GT[18]->Executando na CPU ID [2]
+GT[18]->Processo ID:[2] esta no Estado: RUNNING
+GT[18]->Processo ID:[6] esta no Estado: BLOCKED
+
+
+###########FIM DA [18] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[19]->O ID criado e' 19 
+GT[19]->O Burst Time do ID [19] e' 5 
+GT[19]->A Prioridade do ID [19]e' 9 
+
+GT[19]->Processo inserido na ARRIVE! ID:[19]
+GT[19]->Processo inserido ID:[19]
+GT[19]->Processo ID:[19] esta no Estado: NEW
+
+GT[19]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[14]
+Posicao 2, contem o Processo ID:[15]
+Posicao 3, contem o Processo ID:[16]
+Posicao 4, contem o Processo ID:[17]
+Posicao 5, contem o Processo ID:[18]
+Posicao 6, contem o Processo ID:[19]
+--------------------------------------
+
+GT[19]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[19]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[7]
+Posicao 2, contem o Processo ID:[8]
+Posicao 3, contem o Processo ID:[9]
+Posicao 4, contem o Processo ID:[10]
+Posicao 5, contem o Processo ID:[3]
+Posicao 6, contem o Processo ID:[11]
+Posicao 7, contem o Processo ID:[12]
+Posicao 8, contem o Processo ID:[13]
+--------------------------------------
+
+GT[19]->Existem 8 processos na READY
+
+GT[19]->Executando na CPU ID [2]
+GT[19]->Processo ID:[2] esta no Estado: RUNNING
+
+
+GT[19]->Processo [2] FINALIZADO 
+
+GT[19]->Processo ID:[2] esta no Estado: TERMINATTED
+GT[19]->Tempo de TURNAROUND: 17 
+GT[19]->Processo [6] esta DEIXANDO IO 
+
+GT[19]->Processo inserido na READY! ID:[6]
+
+GT[19]->O numero de elementos na Lista de I/O e' 0 
+
+
+###########FIM DA [19] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[20]->O ID criado e' 20 
+GT[20]->O Burst Time do ID [20] e' 3 
+GT[20]->A Prioridade do ID [20]e' 16 
+
+GT[20]->Processo inserido na ARRIVE! ID:[20]
+GT[20]->Processo inserido ID:[20]
+GT[20]->Processo ID:[20] esta no Estado: NEW
+
+GT[20]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[14]
+Posicao 2, contem o Processo ID:[15]
+Posicao 3, contem o Processo ID:[16]
+Posicao 4, contem o Processo ID:[17]
+Posicao 5, contem o Processo ID:[18]
+Posicao 6, contem o Processo ID:[19]
+Posicao 7, contem o Processo ID:[20]
+--------------------------------------
+
+GT[20]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[20]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[7]
+Posicao 2, contem o Processo ID:[8]
+Posicao 3, contem o Processo ID:[9]
+Posicao 4, contem o Processo ID:[10]
+Posicao 5, contem o Processo ID:[3]
+Posicao 6, contem o Processo ID:[11]
+Posicao 7, contem o Processo ID:[12]
+Posicao 8, contem o Processo ID:[13]
+Posicao 9, contem o Processo ID:[6]
+--------------------------------------
+
+GT[20]->Existem 9 processos na READY
+
+GT[20]->Excluido da ARRIVE ID:[14]
+GT[20]->Processo ID:[14] esta no Estado: READY
+
+GT[20]->Processo inserido na READY! ID:[14]
+
+GT[20]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[7]
+Posicao 2, contem o Processo ID:[8]
+Posicao 3, contem o Processo ID:[9]
+Posicao 4, contem o Processo ID:[10]
+Posicao 5, contem o Processo ID:[3]
+Posicao 6, contem o Processo ID:[11]
+Posicao 7, contem o Processo ID:[12]
+Posicao 8, contem o Processo ID:[13]
+Posicao 9, contem o Processo ID:[6]
+Posicao 10, contem o Processo ID:[14]
+--------------------------------------
+
+GT[20]->Excluido da READY ID:[7]
+
+GT[20]->Tempo de espera do Processo ID:[7] foi: 13 
+
+GT[20]->Executando na CPU ID [7]
+GT[20]->Processo ID:[7] esta no Estado: RUNNING
+GT[20]->I/O OCIOSA
+
+
+###########FIM DA [20] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[21]->O ID criado e' 21 
+GT[21]->O Burst Time do ID [21] e' 7 
+GT[21]->A Prioridade do ID [21]e' 6 
+
+GT[21]->Processo inserido na ARRIVE! ID:[21]
+GT[21]->Processo inserido ID:[21]
+GT[21]->Processo ID:[21] esta no Estado: NEW
+
+GT[21]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[15]
+Posicao 2, contem o Processo ID:[16]
+Posicao 3, contem o Processo ID:[17]
+Posicao 4, contem o Processo ID:[18]
+Posicao 5, contem o Processo ID:[19]
+Posicao 6, contem o Processo ID:[20]
+Posicao 7, contem o Processo ID:[21]
+--------------------------------------
+
+GT[21]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[21]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[8]
+Posicao 2, contem o Processo ID:[9]
+Posicao 3, contem o Processo ID:[10]
+Posicao 4, contem o Processo ID:[3]
+Posicao 5, contem o Processo ID:[11]
+Posicao 6, contem o Processo ID:[12]
+Posicao 7, contem o Processo ID:[13]
+Posicao 8, contem o Processo ID:[6]
+Posicao 9, contem o Processo ID:[14]
+--------------------------------------
+
+GT[21]->Existem 9 processos na READY
+
+GT[21]->Executando na CPU ID [7]
+GT[21]->Processo ID:[7] esta no Estado: RUNNING
+GT[21]->I/O OCIOSA
+
+
+###########FIM DA [21] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[22]->O ID criado e' 22 
+GT[22]->O Burst Time do ID [22] e' 6 
+GT[22]->A Prioridade do ID [22]e' 8 
+
+GT[22]->Processo inserido na ARRIVE! ID:[22]
+GT[22]->Processo inserido ID:[22]
+GT[22]->Processo ID:[22] esta no Estado: NEW
+
+GT[22]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[15]
+Posicao 2, contem o Processo ID:[16]
+Posicao 3, contem o Processo ID:[17]
+Posicao 4, contem o Processo ID:[18]
+Posicao 5, contem o Processo ID:[19]
+Posicao 6, contem o Processo ID:[20]
+Posicao 7, contem o Processo ID:[21]
+Posicao 8, contem o Processo ID:[22]
+--------------------------------------
+
+GT[22]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[22]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[8]
+Posicao 2, contem o Processo ID:[9]
+Posicao 3, contem o Processo ID:[10]
+Posicao 4, contem o Processo ID:[3]
+Posicao 5, contem o Processo ID:[11]
+Posicao 6, contem o Processo ID:[12]
+Posicao 7, contem o Processo ID:[13]
+Posicao 8, contem o Processo ID:[6]
+Posicao 9, contem o Processo ID:[14]
+--------------------------------------
+
+GT[22]->Existem 9 processos na READY
+
+GT[22]->Executando na CPU ID [7]
+GT[22]->Processo ID:[7] esta no Estado: RUNNING
+GT[22]->I/O OCIOSA
+
+
+###########FIM DA [22] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[23]->O ID criado e' 23 
+GT[23]->O Burst Time do ID [23] e' 6 
+GT[23]->A Prioridade do ID [23]e' 11 
+
+GT[23]->Processo inserido na ARRIVE! ID:[23]
+GT[23]->Processo inserido ID:[23]
+GT[23]->Processo ID:[23] esta no Estado: NEW
+
+GT[23]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[15]
+Posicao 2, contem o Processo ID:[16]
+Posicao 3, contem o Processo ID:[17]
+Posicao 4, contem o Processo ID:[18]
+Posicao 5, contem o Processo ID:[19]
+Posicao 6, contem o Processo ID:[20]
+Posicao 7, contem o Processo ID:[21]
+Posicao 8, contem o Processo ID:[22]
+Posicao 9, contem o Processo ID:[23]
+--------------------------------------
+
+GT[23]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[23]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[8]
+Posicao 2, contem o Processo ID:[9]
+Posicao 3, contem o Processo ID:[10]
+Posicao 4, contem o Processo ID:[3]
+Posicao 5, contem o Processo ID:[11]
+Posicao 6, contem o Processo ID:[12]
+Posicao 7, contem o Processo ID:[13]
+Posicao 8, contem o Processo ID:[6]
+Posicao 9, contem o Processo ID:[14]
+--------------------------------------
+
+GT[23]->Existem 9 processos na READY
+
+GT[23]->Executando na CPU ID [7]
+GT[23]->Processo ID:[7] esta no Estado: RUNNING
+GT[23]->Processo [7] vai deixar a CPU
+
+GT[23]->O numero de elementos na Lista de I/O e' 0 
+GT[23]->Processo ID:[7] vai para o Estado: BLOCKED
+GT[23]->Na proxima unidade de tempo, ID [7] vai ocupar I/O 
+
+
+###########FIM DA [23] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[24]->O ID criado e' 24 
+GT[24]->O Burst Time do ID [24] e' 1 
+GT[24]->A Prioridade do ID [24]e' 0 
+
+GT[24]->Processo inserido na ARRIVE! ID:[24]
+GT[24]->Processo inserido ID:[24]
+GT[24]->Processo ID:[24] esta no Estado: NEW
+
+GT[24]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[15]
+Posicao 2, contem o Processo ID:[16]
+Posicao 3, contem o Processo ID:[17]
+Posicao 4, contem o Processo ID:[18]
+Posicao 5, contem o Processo ID:[19]
+Posicao 6, contem o Processo ID:[20]
+Posicao 7, contem o Processo ID:[21]
+Posicao 8, contem o Processo ID:[22]
+Posicao 9, contem o Processo ID:[23]
+Posicao 10, contem o Processo ID:[24]
+--------------------------------------
+
+GT[24]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[24]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[8]
+Posicao 2, contem o Processo ID:[9]
+Posicao 3, contem o Processo ID:[10]
+Posicao 4, contem o Processo ID:[3]
+Posicao 5, contem o Processo ID:[11]
+Posicao 6, contem o Processo ID:[12]
+Posicao 7, contem o Processo ID:[13]
+Posicao 8, contem o Processo ID:[6]
+Posicao 9, contem o Processo ID:[14]
+--------------------------------------
+
+GT[24]->Existem 9 processos na READY
+
+GT[24]->Excluido da READY ID:[8]
+
+GT[24]->Tempo de espera do Processo ID:[8] foi: 16 
+
+GT[24]->Executando na CPU ID [8]
+GT[24]->Processo ID:[8] esta no Estado: RUNNING
+GT[24]->Processo ID:[7] esta no Estado: BLOCKED
+
+
+###########FIM DA [24] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[25]->O ID criado e' 25 
+GT[25]->O Burst Time do ID [25] e' 6 
+GT[25]->A Prioridade do ID [25]e' 13 
+
+GT[25]->Processo inserido na ARRIVE! ID:[25]
+GT[25]->Processo inserido ID:[25]
+GT[25]->Processo ID:[25] esta no Estado: NEW
+
+GT[25]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[15]
+Posicao 2, contem o Processo ID:[16]
+Posicao 3, contem o Processo ID:[17]
+Posicao 4, contem o Processo ID:[18]
+Posicao 5, contem o Processo ID:[19]
+Posicao 6, contem o Processo ID:[20]
+Posicao 7, contem o Processo ID:[21]
+Posicao 8, contem o Processo ID:[22]
+Posicao 9, contem o Processo ID:[23]
+Posicao 10, contem o Processo ID:[24]
+Posicao 11, contem o Processo ID:[25]
+--------------------------------------
+
+GT[25]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[25]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[9]
+Posicao 2, contem o Processo ID:[10]
+Posicao 3, contem o Processo ID:[3]
+Posicao 4, contem o Processo ID:[11]
+Posicao 5, contem o Processo ID:[12]
+Posicao 6, contem o Processo ID:[13]
+Posicao 7, contem o Processo ID:[6]
+Posicao 8, contem o Processo ID:[14]
+--------------------------------------
+
+GT[25]->Existem 8 processos na READY
+
+GT[25]->Executando na CPU ID [8]
+GT[25]->Processo ID:[8] esta no Estado: RUNNING
+GT[25]->Processo [7] esta DEIXANDO IO 
+
+GT[25]->Processo inserido na READY! ID:[7]
+
+GT[25]->O numero de elementos na Lista de I/O e' 0 
+
+
+###########FIM DA [25] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[26]->O ID criado e' 26 
+GT[26]->O Burst Time do ID [26] e' 4 
+GT[26]->A Prioridade do ID [26]e' 2 
+
+GT[26]->Processo inserido na ARRIVE! ID:[26]
+GT[26]->Processo inserido ID:[26]
+GT[26]->Processo ID:[26] esta no Estado: NEW
+
+GT[26]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[15]
+Posicao 2, contem o Processo ID:[16]
+Posicao 3, contem o Processo ID:[17]
+Posicao 4, contem o Processo ID:[18]
+Posicao 5, contem o Processo ID:[19]
+Posicao 6, contem o Processo ID:[20]
+Posicao 7, contem o Processo ID:[21]
+Posicao 8, contem o Processo ID:[22]
+Posicao 9, contem o Processo ID:[23]
+Posicao 10, contem o Processo ID:[24]
+Posicao 11, contem o Processo ID:[25]
+Posicao 12, contem o Processo ID:[26]
+--------------------------------------
+
+GT[26]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[26]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[9]
+Posicao 2, contem o Processo ID:[10]
+Posicao 3, contem o Processo ID:[3]
+Posicao 4, contem o Processo ID:[11]
+Posicao 5, contem o Processo ID:[12]
+Posicao 6, contem o Processo ID:[13]
+Posicao 7, contem o Processo ID:[6]
+Posicao 8, contem o Processo ID:[14]
+Posicao 9, contem o Processo ID:[7]
+--------------------------------------
+
+GT[26]->Existem 9 processos na READY
+
+GT[26]->Executando na CPU ID [8]
+GT[26]->Processo ID:[8] esta no Estado: RUNNING
+
+
+GT[26]->Processo [8] FINALIZADO 
+
+GT[26]->Processo ID:[8] esta no Estado: TERMINATTED
+GT[26]->Tempo de TURNAROUND: 18 
+GT[26]->I/O OCIOSA
+
+
+###########FIM DA [26] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[27]->O ID criado e' 27 
+GT[27]->O Burst Time do ID [27] e' 2 
+GT[27]->A Prioridade do ID [27]e' 13 
+
+GT[27]->Processo inserido na ARRIVE! ID:[27]
+GT[27]->Processo inserido ID:[27]
+GT[27]->Processo ID:[27] esta no Estado: NEW
+
+GT[27]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[15]
+Posicao 2, contem o Processo ID:[16]
+Posicao 3, contem o Processo ID:[17]
+Posicao 4, contem o Processo ID:[18]
+Posicao 5, contem o Processo ID:[19]
+Posicao 6, contem o Processo ID:[20]
+Posicao 7, contem o Processo ID:[21]
+Posicao 8, contem o Processo ID:[22]
+Posicao 9, contem o Processo ID:[23]
+Posicao 10, contem o Processo ID:[24]
+Posicao 11, contem o Processo ID:[25]
+Posicao 12, contem o Processo ID:[26]
+Posicao 13, contem o Processo ID:[27]
+--------------------------------------
+
+GT[27]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[27]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[9]
+Posicao 2, contem o Processo ID:[10]
+Posicao 3, contem o Processo ID:[3]
+Posicao 4, contem o Processo ID:[11]
+Posicao 5, contem o Processo ID:[12]
+Posicao 6, contem o Processo ID:[13]
+Posicao 7, contem o Processo ID:[6]
+Posicao 8, contem o Processo ID:[14]
+Posicao 9, contem o Processo ID:[7]
+--------------------------------------
+
+GT[27]->Existem 9 processos na READY
+
+GT[27]->Excluido da ARRIVE ID:[15]
+GT[27]->Processo ID:[15] esta no Estado: READY
+
+GT[27]->Processo inserido na READY! ID:[15]
+
+GT[27]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[9]
+Posicao 2, contem o Processo ID:[10]
+Posicao 3, contem o Processo ID:[3]
+Posicao 4, contem o Processo ID:[11]
+Posicao 5, contem o Processo ID:[12]
+Posicao 6, contem o Processo ID:[13]
+Posicao 7, contem o Processo ID:[6]
+Posicao 8, contem o Processo ID:[14]
+Posicao 9, contem o Processo ID:[7]
+Posicao 10, contem o Processo ID:[15]
+--------------------------------------
+
+GT[27]->Excluido da READY ID:[9]
+
+GT[27]->Tempo de espera do Processo ID:[9] foi: 18 
+
+GT[27]->Executando na CPU ID [9]
+GT[27]->Processo ID:[9] esta no Estado: RUNNING
+GT[27]->I/O OCIOSA
+
+
+###########FIM DA [27] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[28]->O ID criado e' 28 
+GT[28]->O Burst Time do ID [28] e' 2 
+GT[28]->A Prioridade do ID [28]e' 9 
+
+GT[28]->Processo inserido na ARRIVE! ID:[28]
+GT[28]->Processo inserido ID:[28]
+GT[28]->Processo ID:[28] esta no Estado: NEW
+
+GT[28]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[16]
+Posicao 2, contem o Processo ID:[17]
+Posicao 3, contem o Processo ID:[18]
+Posicao 4, contem o Processo ID:[19]
+Posicao 5, contem o Processo ID:[20]
+Posicao 6, contem o Processo ID:[21]
+Posicao 7, contem o Processo ID:[22]
+Posicao 8, contem o Processo ID:[23]
+Posicao 9, contem o Processo ID:[24]
+Posicao 10, contem o Processo ID:[25]
+Posicao 11, contem o Processo ID:[26]
+Posicao 12, contem o Processo ID:[27]
+Posicao 13, contem o Processo ID:[28]
+--------------------------------------
+
+GT[28]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[28]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[10]
+Posicao 2, contem o Processo ID:[3]
+Posicao 3, contem o Processo ID:[11]
+Posicao 4, contem o Processo ID:[12]
+Posicao 5, contem o Processo ID:[13]
+Posicao 6, contem o Processo ID:[6]
+Posicao 7, contem o Processo ID:[14]
+Posicao 8, contem o Processo ID:[7]
+Posicao 9, contem o Processo ID:[15]
+--------------------------------------
+
+GT[28]->Existem 9 processos na READY
+
+GT[28]->Executando na CPU ID [9]
+GT[28]->Processo ID:[9] esta no Estado: RUNNING
+GT[28]->I/O OCIOSA
+
+
+###########FIM DA [28] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[29]->O ID criado e' 29 
+GT[29]->O Burst Time do ID [29] e' 9 
+GT[29]->A Prioridade do ID [29]e' 17 
+
+GT[29]->Processo inserido na ARRIVE! ID:[29]
+GT[29]->Processo inserido ID:[29]
+GT[29]->Processo ID:[29] esta no Estado: NEW
+
+GT[29]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[16]
+Posicao 2, contem o Processo ID:[17]
+Posicao 3, contem o Processo ID:[18]
+Posicao 4, contem o Processo ID:[19]
+Posicao 5, contem o Processo ID:[20]
+Posicao 6, contem o Processo ID:[21]
+Posicao 7, contem o Processo ID:[22]
+Posicao 8, contem o Processo ID:[23]
+Posicao 9, contem o Processo ID:[24]
+Posicao 10, contem o Processo ID:[25]
+Posicao 11, contem o Processo ID:[26]
+Posicao 12, contem o Processo ID:[27]
+Posicao 13, contem o Processo ID:[28]
+Posicao 14, contem o Processo ID:[29]
+--------------------------------------
+
+GT[29]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[29]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[10]
+Posicao 2, contem o Processo ID:[3]
+Posicao 3, contem o Processo ID:[11]
+Posicao 4, contem o Processo ID:[12]
+Posicao 5, contem o Processo ID:[13]
+Posicao 6, contem o Processo ID:[6]
+Posicao 7, contem o Processo ID:[14]
+Posicao 8, contem o Processo ID:[7]
+Posicao 9, contem o Processo ID:[15]
+--------------------------------------
+
+GT[29]->Existem 9 processos na READY
+
+GT[29]->Executando na CPU ID [9]
+GT[29]->Processo ID:[9] esta no Estado: RUNNING
+GT[29]->Processo [9] vai deixar a CPU
+
+GT[29]->O numero de elementos na Lista de I/O e' 0 
+GT[29]->Processo ID:[9] vai para o Estado: BLOCKED
+GT[29]->Na proxima unidade de tempo, ID [9] vai ocupar I/O 
+
+
+###########FIM DA [29] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[30]->O ID criado e' 30 
+GT[30]->O Burst Time do ID [30] e' 8 
+GT[30]->A Prioridade do ID [30]e' 15 
+
+GT[30]->Processo inserido na ARRIVE! ID:[30]
+GT[30]->Processo inserido ID:[30]
+GT[30]->Processo ID:[30] esta no Estado: NEW
+
+GT[30]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[16]
+Posicao 2, contem o Processo ID:[17]
+Posicao 3, contem o Processo ID:[18]
+Posicao 4, contem o Processo ID:[19]
+Posicao 5, contem o Processo ID:[20]
+Posicao 6, contem o Processo ID:[21]
+Posicao 7, contem o Processo ID:[22]
+Posicao 8, contem o Processo ID:[23]
+Posicao 9, contem o Processo ID:[24]
+Posicao 10, contem o Processo ID:[25]
+Posicao 11, contem o Processo ID:[26]
+Posicao 12, contem o Processo ID:[27]
+Posicao 13, contem o Processo ID:[28]
+Posicao 14, contem o Processo ID:[29]
+Posicao 15, contem o Processo ID:[30]
+--------------------------------------
+
+GT[30]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[30]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[10]
+Posicao 2, contem o Processo ID:[3]
+Posicao 3, contem o Processo ID:[11]
+Posicao 4, contem o Processo ID:[12]
+Posicao 5, contem o Processo ID:[13]
+Posicao 6, contem o Processo ID:[6]
+Posicao 7, contem o Processo ID:[14]
+Posicao 8, contem o Processo ID:[7]
+Posicao 9, contem o Processo ID:[15]
+--------------------------------------
+
+GT[30]->Existem 9 processos na READY
+
+GT[30]->Excluido da READY ID:[10]
+
+GT[30]->Tempo de espera do Processo ID:[10] foi: 20 
+
+GT[30]->Executando na CPU ID [10]
+GT[30]->Processo ID:[10] esta no Estado: RUNNING
+GT[30]->Processo ID:[9] esta no Estado: BLOCKED
+
+
+###########FIM DA [30] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[31]->O ID criado e' 31 
+GT[31]->O Burst Time do ID [31] e' 2 
+GT[31]->A Prioridade do ID [31]e' 18 
+
+GT[31]->Processo inserido na ARRIVE! ID:[31]
+GT[31]->Processo inserido ID:[31]
+GT[31]->Processo ID:[31] esta no Estado: NEW
+
+GT[31]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[16]
+Posicao 2, contem o Processo ID:[17]
+Posicao 3, contem o Processo ID:[18]
+Posicao 4, contem o Processo ID:[19]
+Posicao 5, contem o Processo ID:[20]
+Posicao 6, contem o Processo ID:[21]
+Posicao 7, contem o Processo ID:[22]
+Posicao 8, contem o Processo ID:[23]
+Posicao 9, contem o Processo ID:[24]
+Posicao 10, contem o Processo ID:[25]
+Posicao 11, contem o Processo ID:[26]
+Posicao 12, contem o Processo ID:[27]
+Posicao 13, contem o Processo ID:[28]
+Posicao 14, contem o Processo ID:[29]
+Posicao 15, contem o Processo ID:[30]
+Posicao 16, contem o Processo ID:[31]
+--------------------------------------
+
+GT[31]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[31]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[3]
+Posicao 2, contem o Processo ID:[11]
+Posicao 3, contem o Processo ID:[12]
+Posicao 4, contem o Processo ID:[13]
+Posicao 5, contem o Processo ID:[6]
+Posicao 6, contem o Processo ID:[14]
+Posicao 7, contem o Processo ID:[7]
+Posicao 8, contem o Processo ID:[15]
+--------------------------------------
+
+GT[31]->Existem 8 processos na READY
+
+GT[31]->Executando na CPU ID [10]
+GT[31]->Processo ID:[10] esta no Estado: RUNNING
+
+
+GT[31]->Processo [10] FINALIZADO 
+
+GT[31]->Processo ID:[10] esta no Estado: TERMINATTED
+GT[31]->Tempo de TURNAROUND: 21 
+GT[31]->Processo [9] esta DEIXANDO IO 
+
+GT[31]->Processo inserido na READY! ID:[9]
+
+GT[31]->O numero de elementos na Lista de I/O e' 0 
+
+
+###########FIM DA [31] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[32]->O ID criado e' 32 
+GT[32]->O Burst Time do ID [32] e' 5 
+GT[32]->A Prioridade do ID [32]e' 0 
+
+GT[32]->Processo inserido na ARRIVE! ID:[32]
+GT[32]->Processo inserido ID:[32]
+GT[32]->Processo ID:[32] esta no Estado: NEW
+
+GT[32]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[16]
+Posicao 2, contem o Processo ID:[17]
+Posicao 3, contem o Processo ID:[18]
+Posicao 4, contem o Processo ID:[19]
+Posicao 5, contem o Processo ID:[20]
+Posicao 6, contem o Processo ID:[21]
+Posicao 7, contem o Processo ID:[22]
+Posicao 8, contem o Processo ID:[23]
+Posicao 9, contem o Processo ID:[24]
+Posicao 10, contem o Processo ID:[25]
+Posicao 11, contem o Processo ID:[26]
+Posicao 12, contem o Processo ID:[27]
+Posicao 13, contem o Processo ID:[28]
+Posicao 14, contem o Processo ID:[29]
+Posicao 15, contem o Processo ID:[30]
+Posicao 16, contem o Processo ID:[31]
+Posicao 17, contem o Processo ID:[32]
+--------------------------------------
+
+GT[32]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[32]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[3]
+Posicao 2, contem o Processo ID:[11]
+Posicao 3, contem o Processo ID:[12]
+Posicao 4, contem o Processo ID:[13]
+Posicao 5, contem o Processo ID:[6]
+Posicao 6, contem o Processo ID:[14]
+Posicao 7, contem o Processo ID:[7]
+Posicao 8, contem o Processo ID:[15]
+Posicao 9, contem o Processo ID:[9]
+--------------------------------------
+
+GT[32]->Existem 9 processos na READY
+
+GT[32]->Excluido da ARRIVE ID:[16]
+GT[32]->Processo ID:[16] esta no Estado: READY
+
+GT[32]->Processo inserido na READY! ID:[16]
+
+GT[32]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[3]
+Posicao 2, contem o Processo ID:[11]
+Posicao 3, contem o Processo ID:[12]
+Posicao 4, contem o Processo ID:[13]
+Posicao 5, contem o Processo ID:[6]
+Posicao 6, contem o Processo ID:[14]
+Posicao 7, contem o Processo ID:[7]
+Posicao 8, contem o Processo ID:[15]
+Posicao 9, contem o Processo ID:[9]
+Posicao 10, contem o Processo ID:[16]
+--------------------------------------
+
+GT[32]->Excluido da READY ID:[3]
+
+GT[32]->Tempo de espera do Processo ID:[3] foi: 21 
+
+GT[32]->Executando na CPU ID [3]
+GT[32]->Processo ID:[3] esta no Estado: RUNNING
+GT[32]->I/O OCIOSA
+
+
+###########FIM DA [32] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[33]->O ID criado e' 33 
+GT[33]->O Burst Time do ID [33] e' 9 
+GT[33]->A Prioridade do ID [33]e' 6 
+
+GT[33]->Processo inserido na ARRIVE! ID:[33]
+GT[33]->Processo inserido ID:[33]
+GT[33]->Processo ID:[33] esta no Estado: NEW
+
+GT[33]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[17]
+Posicao 2, contem o Processo ID:[18]
+Posicao 3, contem o Processo ID:[19]
+Posicao 4, contem o Processo ID:[20]
+Posicao 5, contem o Processo ID:[21]
+Posicao 6, contem o Processo ID:[22]
+Posicao 7, contem o Processo ID:[23]
+Posicao 8, contem o Processo ID:[24]
+Posicao 9, contem o Processo ID:[25]
+Posicao 10, contem o Processo ID:[26]
+Posicao 11, contem o Processo ID:[27]
+Posicao 12, contem o Processo ID:[28]
+Posicao 13, contem o Processo ID:[29]
+Posicao 14, contem o Processo ID:[30]
+Posicao 15, contem o Processo ID:[31]
+Posicao 16, contem o Processo ID:[32]
+Posicao 17, contem o Processo ID:[33]
+--------------------------------------
+
+GT[33]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[33]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[11]
+Posicao 2, contem o Processo ID:[12]
+Posicao 3, contem o Processo ID:[13]
+Posicao 4, contem o Processo ID:[6]
+Posicao 5, contem o Processo ID:[14]
+Posicao 6, contem o Processo ID:[7]
+Posicao 7, contem o Processo ID:[15]
+Posicao 8, contem o Processo ID:[9]
+Posicao 9, contem o Processo ID:[16]
+--------------------------------------
+
+GT[33]->Existem 9 processos na READY
+
+GT[33]->Executando na CPU ID [3]
+GT[33]->Processo ID:[3] esta no Estado: RUNNING
+GT[33]->I/O OCIOSA
+
+
+###########FIM DA [33] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[34]->O ID criado e' 34 
+GT[34]->O Burst Time do ID [34] e' 8 
+GT[34]->A Prioridade do ID [34]e' 4 
+
+GT[34]->Processo inserido na ARRIVE! ID:[34]
+GT[34]->Processo inserido ID:[34]
+GT[34]->Processo ID:[34] esta no Estado: NEW
+
+GT[34]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[17]
+Posicao 2, contem o Processo ID:[18]
+Posicao 3, contem o Processo ID:[19]
+Posicao 4, contem o Processo ID:[20]
+Posicao 5, contem o Processo ID:[21]
+Posicao 6, contem o Processo ID:[22]
+Posicao 7, contem o Processo ID:[23]
+Posicao 8, contem o Processo ID:[24]
+Posicao 9, contem o Processo ID:[25]
+Posicao 10, contem o Processo ID:[26]
+Posicao 11, contem o Processo ID:[27]
+Posicao 12, contem o Processo ID:[28]
+Posicao 13, contem o Processo ID:[29]
+Posicao 14, contem o Processo ID:[30]
+Posicao 15, contem o Processo ID:[31]
+Posicao 16, contem o Processo ID:[32]
+Posicao 17, contem o Processo ID:[33]
+Posicao 18, contem o Processo ID:[34]
+--------------------------------------
+
+GT[34]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[34]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[11]
+Posicao 2, contem o Processo ID:[12]
+Posicao 3, contem o Processo ID:[13]
+Posicao 4, contem o Processo ID:[6]
+Posicao 5, contem o Processo ID:[14]
+Posicao 6, contem o Processo ID:[7]
+Posicao 7, contem o Processo ID:[15]
+Posicao 8, contem o Processo ID:[9]
+Posicao 9, contem o Processo ID:[16]
+--------------------------------------
+
+GT[34]->Existem 9 processos na READY
+
+GT[34]->Executando na CPU ID [3]
+GT[34]->Processo ID:[3] esta no Estado: RUNNING
+GT[34]->I/O OCIOSA
+
+
+###########FIM DA [34] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[35]->O ID criado e' 35 
+GT[35]->O Burst Time do ID [35] e' 5 
+GT[35]->A Prioridade do ID [35]e' 3 
+
+GT[35]->Processo inserido na ARRIVE! ID:[35]
+GT[35]->Processo inserido ID:[35]
+GT[35]->Processo ID:[35] esta no Estado: NEW
+
+GT[35]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[17]
+Posicao 2, contem o Processo ID:[18]
+Posicao 3, contem o Processo ID:[19]
+Posicao 4, contem o Processo ID:[20]
+Posicao 5, contem o Processo ID:[21]
+Posicao 6, contem o Processo ID:[22]
+Posicao 7, contem o Processo ID:[23]
+Posicao 8, contem o Processo ID:[24]
+Posicao 9, contem o Processo ID:[25]
+Posicao 10, contem o Processo ID:[26]
+Posicao 11, contem o Processo ID:[27]
+Posicao 12, contem o Processo ID:[28]
+Posicao 13, contem o Processo ID:[29]
+Posicao 14, contem o Processo ID:[30]
+Posicao 15, contem o Processo ID:[31]
+Posicao 16, contem o Processo ID:[32]
+Posicao 17, contem o Processo ID:[33]
+Posicao 18, contem o Processo ID:[34]
+Posicao 19, contem o Processo ID:[35]
+--------------------------------------
+
+GT[35]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[35]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[11]
+Posicao 2, contem o Processo ID:[12]
+Posicao 3, contem o Processo ID:[13]
+Posicao 4, contem o Processo ID:[6]
+Posicao 5, contem o Processo ID:[14]
+Posicao 6, contem o Processo ID:[7]
+Posicao 7, contem o Processo ID:[15]
+Posicao 8, contem o Processo ID:[9]
+Posicao 9, contem o Processo ID:[16]
+--------------------------------------
+
+GT[35]->Existem 9 processos na READY
+
+GT[35]->Executando na CPU ID [3]
+GT[35]->Processo ID:[3] esta no Estado: RUNNING
+GT[35]->Processo [3] vai deixar a CPU
+
+GT[35]->O numero de elementos na Lista de I/O e' 0 
+GT[35]->Processo ID:[3] vai para o Estado: BLOCKED
+GT[35]->Na proxima unidade de tempo, ID [3] vai ocupar I/O 
+
+
+###########FIM DA [35] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[36]->O ID criado e' 36 
+GT[36]->O Burst Time do ID [36] e' 0 
+GT[36]->A Prioridade do ID [36]e' 4 
+
+GT[36]->Processo inserido na ARRIVE! ID:[36]
+GT[36]->Processo inserido ID:[36]
+GT[36]->Processo ID:[36] esta no Estado: NEW
+
+GT[36]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[17]
+Posicao 2, contem o Processo ID:[18]
+Posicao 3, contem o Processo ID:[19]
+Posicao 4, contem o Processo ID:[20]
+Posicao 5, contem o Processo ID:[21]
+Posicao 6, contem o Processo ID:[22]
+Posicao 7, contem o Processo ID:[23]
+Posicao 8, contem o Processo ID:[24]
+Posicao 9, contem o Processo ID:[25]
+Posicao 10, contem o Processo ID:[26]
+Posicao 11, contem o Processo ID:[27]
+Posicao 12, contem o Processo ID:[28]
+Posicao 13, contem o Processo ID:[29]
+Posicao 14, contem o Processo ID:[30]
+Posicao 15, contem o Processo ID:[31]
+Posicao 16, contem o Processo ID:[32]
+Posicao 17, contem o Processo ID:[33]
+Posicao 18, contem o Processo ID:[34]
+Posicao 19, contem o Processo ID:[35]
+Posicao 20, contem o Processo ID:[36]
+--------------------------------------
+
+GT[36]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[36]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[11]
+Posicao 2, contem o Processo ID:[12]
+Posicao 3, contem o Processo ID:[13]
+Posicao 4, contem o Processo ID:[6]
+Posicao 5, contem o Processo ID:[14]
+Posicao 6, contem o Processo ID:[7]
+Posicao 7, contem o Processo ID:[15]
+Posicao 8, contem o Processo ID:[9]
+Posicao 9, contem o Processo ID:[16]
+--------------------------------------
+
+GT[36]->Existem 9 processos na READY
+
+GT[36]->Excluido da READY ID:[11]
+
+GT[36]->Tempo de espera do Processo ID:[11] foi: 25 
+
+GT[36]->Executando na CPU ID [11]
+GT[36]->Processo ID:[11] esta no Estado: RUNNING
+GT[36]->Processo ID:[3] esta no Estado: BLOCKED
+
+
+###########FIM DA [36] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[37]->O ID criado e' 37 
+GT[37]->O Burst Time do ID [37] e' 1 
+GT[37]->A Prioridade do ID [37]e' 18 
+
+GT[37]->Processo inserido na ARRIVE! ID:[37]
+GT[37]->Processo inserido ID:[37]
+GT[37]->Processo ID:[37] esta no Estado: NEW
+
+GT[37]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[17]
+Posicao 2, contem o Processo ID:[18]
+Posicao 3, contem o Processo ID:[19]
+Posicao 4, contem o Processo ID:[20]
+Posicao 5, contem o Processo ID:[21]
+Posicao 6, contem o Processo ID:[22]
+Posicao 7, contem o Processo ID:[23]
+Posicao 8, contem o Processo ID:[24]
+Posicao 9, contem o Processo ID:[25]
+Posicao 10, contem o Processo ID:[26]
+Posicao 11, contem o Processo ID:[27]
+Posicao 12, contem o Processo ID:[28]
+Posicao 13, contem o Processo ID:[29]
+Posicao 14, contem o Processo ID:[30]
+Posicao 15, contem o Processo ID:[31]
+Posicao 16, contem o Processo ID:[32]
+Posicao 17, contem o Processo ID:[33]
+Posicao 18, contem o Processo ID:[34]
+Posicao 19, contem o Processo ID:[35]
+Posicao 20, contem o Processo ID:[36]
+Posicao 21, contem o Processo ID:[37]
+--------------------------------------
+
+GT[37]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[37]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[12]
+Posicao 2, contem o Processo ID:[13]
+Posicao 3, contem o Processo ID:[6]
+Posicao 4, contem o Processo ID:[14]
+Posicao 5, contem o Processo ID:[7]
+Posicao 6, contem o Processo ID:[15]
+Posicao 7, contem o Processo ID:[9]
+Posicao 8, contem o Processo ID:[16]
+--------------------------------------
+
+GT[37]->Existem 8 processos na READY
+
+GT[37]->Executando na CPU ID [11]
+GT[37]->Processo ID:[11] esta no Estado: RUNNING
+GT[37]->Processo [3] esta DEIXANDO IO 
+
+GT[37]->Processo inserido na READY! ID:[3]
+
+GT[37]->O numero de elementos na Lista de I/O e' 0 
+
+
+###########FIM DA [37] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[38]->O ID criado e' 38 
+GT[38]->O Burst Time do ID [38] e' 3 
+GT[38]->A Prioridade do ID [38]e' 7 
+
+GT[38]->Processo inserido na ARRIVE! ID:[38]
+GT[38]->Processo inserido ID:[38]
+GT[38]->Processo ID:[38] esta no Estado: NEW
+
+GT[38]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[17]
+Posicao 2, contem o Processo ID:[18]
+Posicao 3, contem o Processo ID:[19]
+Posicao 4, contem o Processo ID:[20]
+Posicao 5, contem o Processo ID:[21]
+Posicao 6, contem o Processo ID:[22]
+Posicao 7, contem o Processo ID:[23]
+Posicao 8, contem o Processo ID:[24]
+Posicao 9, contem o Processo ID:[25]
+Posicao 10, contem o Processo ID:[26]
+Posicao 11, contem o Processo ID:[27]
+Posicao 12, contem o Processo ID:[28]
+Posicao 13, contem o Processo ID:[29]
+Posicao 14, contem o Processo ID:[30]
+Posicao 15, contem o Processo ID:[31]
+Posicao 16, contem o Processo ID:[32]
+Posicao 17, contem o Processo ID:[33]
+Posicao 18, contem o Processo ID:[34]
+Posicao 19, contem o Processo ID:[35]
+Posicao 20, contem o Processo ID:[36]
+Posicao 21, contem o Processo ID:[37]
+Posicao 22, contem o Processo ID:[38]
+--------------------------------------
+
+GT[38]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[38]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[12]
+Posicao 2, contem o Processo ID:[13]
+Posicao 3, contem o Processo ID:[6]
+Posicao 4, contem o Processo ID:[14]
+Posicao 5, contem o Processo ID:[7]
+Posicao 6, contem o Processo ID:[15]
+Posicao 7, contem o Processo ID:[9]
+Posicao 8, contem o Processo ID:[16]
+Posicao 9, contem o Processo ID:[3]
+--------------------------------------
+
+GT[38]->Existem 9 processos na READY
+
+GT[38]->Executando na CPU ID [11]
+GT[38]->Processo ID:[11] esta no Estado: RUNNING
+GT[38]->I/O OCIOSA
+
+
+###########FIM DA [38] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[39]->O ID criado e' 39 
+GT[39]->O Burst Time do ID [39] e' 2 
+GT[39]->A Prioridade do ID [39]e' 16 
+
+GT[39]->Processo inserido na ARRIVE! ID:[39]
+GT[39]->Processo inserido ID:[39]
+GT[39]->Processo ID:[39] esta no Estado: NEW
+
+GT[39]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[17]
+Posicao 2, contem o Processo ID:[18]
+Posicao 3, contem o Processo ID:[19]
+Posicao 4, contem o Processo ID:[20]
+Posicao 5, contem o Processo ID:[21]
+Posicao 6, contem o Processo ID:[22]
+Posicao 7, contem o Processo ID:[23]
+Posicao 8, contem o Processo ID:[24]
+Posicao 9, contem o Processo ID:[25]
+Posicao 10, contem o Processo ID:[26]
+Posicao 11, contem o Processo ID:[27]
+Posicao 12, contem o Processo ID:[28]
+Posicao 13, contem o Processo ID:[29]
+Posicao 14, contem o Processo ID:[30]
+Posicao 15, contem o Processo ID:[31]
+Posicao 16, contem o Processo ID:[32]
+Posicao 17, contem o Processo ID:[33]
+Posicao 18, contem o Processo ID:[34]
+Posicao 19, contem o Processo ID:[35]
+Posicao 20, contem o Processo ID:[36]
+Posicao 21, contem o Processo ID:[37]
+Posicao 22, contem o Processo ID:[38]
+Posicao 23, contem o Processo ID:[39]
+--------------------------------------
+
+GT[39]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[39]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[12]
+Posicao 2, contem o Processo ID:[13]
+Posicao 3, contem o Processo ID:[6]
+Posicao 4, contem o Processo ID:[14]
+Posicao 5, contem o Processo ID:[7]
+Posicao 6, contem o Processo ID:[15]
+Posicao 7, contem o Processo ID:[9]
+Posicao 8, contem o Processo ID:[16]
+Posicao 9, contem o Processo ID:[3]
+--------------------------------------
+
+GT[39]->Existem 9 processos na READY
+
+GT[39]->Executando na CPU ID [11]
+GT[39]->Processo ID:[11] esta no Estado: RUNNING
+
+
+GT[39]->Processo [11] FINALIZADO 
+
+GT[39]->Processo ID:[11] esta no Estado: TERMINATTED
+GT[39]->Tempo de TURNAROUND: 28 
+GT[39]->I/O OCIOSA
+
+
+###########FIM DA [39] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[40]->O ID criado e' 40 
+GT[40]->O Burst Time do ID [40] e' 0 
+GT[40]->A Prioridade do ID [40]e' 18 
+
+GT[40]->Processo inserido na ARRIVE! ID:[40]
+GT[40]->Processo inserido ID:[40]
+GT[40]->Processo ID:[40] esta no Estado: NEW
+
+GT[40]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[17]
+Posicao 2, contem o Processo ID:[18]
+Posicao 3, contem o Processo ID:[19]
+Posicao 4, contem o Processo ID:[20]
+Posicao 5, contem o Processo ID:[21]
+Posicao 6, contem o Processo ID:[22]
+Posicao 7, contem o Processo ID:[23]
+Posicao 8, contem o Processo ID:[24]
+Posicao 9, contem o Processo ID:[25]
+Posicao 10, contem o Processo ID:[26]
+Posicao 11, contem o Processo ID:[27]
+Posicao 12, contem o Processo ID:[28]
+Posicao 13, contem o Processo ID:[29]
+Posicao 14, contem o Processo ID:[30]
+Posicao 15, contem o Processo ID:[31]
+Posicao 16, contem o Processo ID:[32]
+Posicao 17, contem o Processo ID:[33]
+Posicao 18, contem o Processo ID:[34]
+Posicao 19, contem o Processo ID:[35]
+Posicao 20, contem o Processo ID:[36]
+Posicao 21, contem o Processo ID:[37]
+Posicao 22, contem o Processo ID:[38]
+Posicao 23, contem o Processo ID:[39]
+Posicao 24, contem o Processo ID:[40]
+--------------------------------------
+
+GT[40]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[40]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[12]
+Posicao 2, contem o Processo ID:[13]
+Posicao 3, contem o Processo ID:[6]
+Posicao 4, contem o Processo ID:[14]
+Posicao 5, contem o Processo ID:[7]
+Posicao 6, contem o Processo ID:[15]
+Posicao 7, contem o Processo ID:[9]
+Posicao 8, contem o Processo ID:[16]
+Posicao 9, contem o Processo ID:[3]
+--------------------------------------
+
+GT[40]->Existem 9 processos na READY
+
+GT[40]->Excluido da ARRIVE ID:[17]
+GT[40]->Processo ID:[17] esta no Estado: READY
+
+GT[40]->Processo inserido na READY! ID:[17]
+
+GT[40]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[12]
+Posicao 2, contem o Processo ID:[13]
+Posicao 3, contem o Processo ID:[6]
+Posicao 4, contem o Processo ID:[14]
+Posicao 5, contem o Processo ID:[7]
+Posicao 6, contem o Processo ID:[15]
+Posicao 7, contem o Processo ID:[9]
+Posicao 8, contem o Processo ID:[16]
+Posicao 9, contem o Processo ID:[3]
+Posicao 10, contem o Processo ID:[17]
+--------------------------------------
+
+GT[40]->Excluido da READY ID:[12]
+
+GT[40]->Tempo de espera do Processo ID:[12] foi: 28 
+
+GT[40]->Executando na CPU ID [12]
+GT[40]->Processo ID:[12] esta no Estado: RUNNING
+GT[40]->I/O OCIOSA
+
+
+###########FIM DA [40] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[41]->O ID criado e' 41 
+GT[41]->O Burst Time do ID [41] e' 1 
+GT[41]->A Prioridade do ID [41]e' 16 
+
+GT[41]->Processo inserido na ARRIVE! ID:[41]
+GT[41]->Processo inserido ID:[41]
+GT[41]->Processo ID:[41] esta no Estado: NEW
+
+GT[41]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[18]
+Posicao 2, contem o Processo ID:[19]
+Posicao 3, contem o Processo ID:[20]
+Posicao 4, contem o Processo ID:[21]
+Posicao 5, contem o Processo ID:[22]
+Posicao 6, contem o Processo ID:[23]
+Posicao 7, contem o Processo ID:[24]
+Posicao 8, contem o Processo ID:[25]
+Posicao 9, contem o Processo ID:[26]
+Posicao 10, contem o Processo ID:[27]
+Posicao 11, contem o Processo ID:[28]
+Posicao 12, contem o Processo ID:[29]
+Posicao 13, contem o Processo ID:[30]
+Posicao 14, contem o Processo ID:[31]
+Posicao 15, contem o Processo ID:[32]
+Posicao 16, contem o Processo ID:[33]
+Posicao 17, contem o Processo ID:[34]
+Posicao 18, contem o Processo ID:[35]
+Posicao 19, contem o Processo ID:[36]
+Posicao 20, contem o Processo ID:[37]
+Posicao 21, contem o Processo ID:[38]
+Posicao 22, contem o Processo ID:[39]
+Posicao 23, contem o Processo ID:[40]
+Posicao 24, contem o Processo ID:[41]
+--------------------------------------
+
+GT[41]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[41]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[13]
+Posicao 2, contem o Processo ID:[6]
+Posicao 3, contem o Processo ID:[14]
+Posicao 4, contem o Processo ID:[7]
+Posicao 5, contem o Processo ID:[15]
+Posicao 6, contem o Processo ID:[9]
+Posicao 7, contem o Processo ID:[16]
+Posicao 8, contem o Processo ID:[3]
+Posicao 9, contem o Processo ID:[17]
+--------------------------------------
+
+GT[41]->Existem 9 processos na READY
+
+GT[41]->Executando na CPU ID [12]
+GT[41]->Processo ID:[12] esta no Estado: RUNNING
+GT[41]->Processo [12] vai deixar a CPU
+
+GT[41]->O numero de elementos na Lista de I/O e' 0 
+GT[41]->Processo ID:[12] vai para o Estado: BLOCKED
+GT[41]->Na proxima unidade de tempo, ID [12] vai ocupar I/O 
+
+
+###########FIM DA [41] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[42]->O ID criado e' 42 
+GT[42]->O Burst Time do ID [42] e' 3 
+GT[42]->A Prioridade do ID [42]e' 3 
+
+GT[42]->Processo inserido na ARRIVE! ID:[42]
+GT[42]->Processo inserido ID:[42]
+GT[42]->Processo ID:[42] esta no Estado: NEW
+
+GT[42]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[18]
+Posicao 2, contem o Processo ID:[19]
+Posicao 3, contem o Processo ID:[20]
+Posicao 4, contem o Processo ID:[21]
+Posicao 5, contem o Processo ID:[22]
+Posicao 6, contem o Processo ID:[23]
+Posicao 7, contem o Processo ID:[24]
+Posicao 8, contem o Processo ID:[25]
+Posicao 9, contem o Processo ID:[26]
+Posicao 10, contem o Processo ID:[27]
+Posicao 11, contem o Processo ID:[28]
+Posicao 12, contem o Processo ID:[29]
+Posicao 13, contem o Processo ID:[30]
+Posicao 14, contem o Processo ID:[31]
+Posicao 15, contem o Processo ID:[32]
+Posicao 16, contem o Processo ID:[33]
+Posicao 17, contem o Processo ID:[34]
+Posicao 18, contem o Processo ID:[35]
+Posicao 19, contem o Processo ID:[36]
+Posicao 20, contem o Processo ID:[37]
+Posicao 21, contem o Processo ID:[38]
+Posicao 22, contem o Processo ID:[39]
+Posicao 23, contem o Processo ID:[40]
+Posicao 24, contem o Processo ID:[41]
+Posicao 25, contem o Processo ID:[42]
+--------------------------------------
+
+GT[42]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[42]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[13]
+Posicao 2, contem o Processo ID:[6]
+Posicao 3, contem o Processo ID:[14]
+Posicao 4, contem o Processo ID:[7]
+Posicao 5, contem o Processo ID:[15]
+Posicao 6, contem o Processo ID:[9]
+Posicao 7, contem o Processo ID:[16]
+Posicao 8, contem o Processo ID:[3]
+Posicao 9, contem o Processo ID:[17]
+--------------------------------------
+
+GT[42]->Existem 9 processos na READY
+
+GT[42]->Excluido da READY ID:[13]
+
+GT[42]->Tempo de espera do Processo ID:[13] foi: 29 
+
+GT[42]->Executando na CPU ID [13]
+GT[42]->Processo ID:[13] esta no Estado: RUNNING
+GT[42]->Processo ID:[12] esta no Estado: BLOCKED
+
+
+###########FIM DA [42] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[43]->O ID criado e' 43 
+GT[43]->O Burst Time do ID [43] e' 9 
+GT[43]->A Prioridade do ID [43]e' 17 
+
+GT[43]->Processo inserido na ARRIVE! ID:[43]
+GT[43]->Processo inserido ID:[43]
+GT[43]->Processo ID:[43] esta no Estado: NEW
+
+GT[43]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[18]
+Posicao 2, contem o Processo ID:[19]
+Posicao 3, contem o Processo ID:[20]
+Posicao 4, contem o Processo ID:[21]
+Posicao 5, contem o Processo ID:[22]
+Posicao 6, contem o Processo ID:[23]
+Posicao 7, contem o Processo ID:[24]
+Posicao 8, contem o Processo ID:[25]
+Posicao 9, contem o Processo ID:[26]
+Posicao 10, contem o Processo ID:[27]
+Posicao 11, contem o Processo ID:[28]
+Posicao 12, contem o Processo ID:[29]
+Posicao 13, contem o Processo ID:[30]
+Posicao 14, contem o Processo ID:[31]
+Posicao 15, contem o Processo ID:[32]
+Posicao 16, contem o Processo ID:[33]
+Posicao 17, contem o Processo ID:[34]
+Posicao 18, contem o Processo ID:[35]
+Posicao 19, contem o Processo ID:[36]
+Posicao 20, contem o Processo ID:[37]
+Posicao 21, contem o Processo ID:[38]
+Posicao 22, contem o Processo ID:[39]
+Posicao 23, contem o Processo ID:[40]
+Posicao 24, contem o Processo ID:[41]
+Posicao 25, contem o Processo ID:[42]
+Posicao 26, contem o Processo ID:[43]
+--------------------------------------
+
+GT[43]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[43]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[6]
+Posicao 2, contem o Processo ID:[14]
+Posicao 3, contem o Processo ID:[7]
+Posicao 4, contem o Processo ID:[15]
+Posicao 5, contem o Processo ID:[9]
+Posicao 6, contem o Processo ID:[16]
+Posicao 7, contem o Processo ID:[3]
+Posicao 8, contem o Processo ID:[17]
+--------------------------------------
+
+GT[43]->Existem 8 processos na READY
+
+GT[43]->Executando na CPU ID [13]
+GT[43]->Processo ID:[13] esta no Estado: RUNNING
+GT[43]->Processo [12] esta DEIXANDO IO 
+
+GT[43]->Processo inserido na READY! ID:[12]
+
+GT[43]->O numero de elementos na Lista de I/O e' 0 
+
+
+###########FIM DA [43] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[44]->O ID criado e' 44 
+GT[44]->O Burst Time do ID [44] e' 5 
+GT[44]->A Prioridade do ID [44]e' 8 
+
+GT[44]->Processo inserido na ARRIVE! ID:[44]
+GT[44]->Processo inserido ID:[44]
+GT[44]->Processo ID:[44] esta no Estado: NEW
+
+GT[44]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[18]
+Posicao 2, contem o Processo ID:[19]
+Posicao 3, contem o Processo ID:[20]
+Posicao 4, contem o Processo ID:[21]
+Posicao 5, contem o Processo ID:[22]
+Posicao 6, contem o Processo ID:[23]
+Posicao 7, contem o Processo ID:[24]
+Posicao 8, contem o Processo ID:[25]
+Posicao 9, contem o Processo ID:[26]
+Posicao 10, contem o Processo ID:[27]
+Posicao 11, contem o Processo ID:[28]
+Posicao 12, contem o Processo ID:[29]
+Posicao 13, contem o Processo ID:[30]
+Posicao 14, contem o Processo ID:[31]
+Posicao 15, contem o Processo ID:[32]
+Posicao 16, contem o Processo ID:[33]
+Posicao 17, contem o Processo ID:[34]
+Posicao 18, contem o Processo ID:[35]
+Posicao 19, contem o Processo ID:[36]
+Posicao 20, contem o Processo ID:[37]
+Posicao 21, contem o Processo ID:[38]
+Posicao 22, contem o Processo ID:[39]
+Posicao 23, contem o Processo ID:[40]
+Posicao 24, contem o Processo ID:[41]
+Posicao 25, contem o Processo ID:[42]
+Posicao 26, contem o Processo ID:[43]
+Posicao 27, contem o Processo ID:[44]
+--------------------------------------
+
+GT[44]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[44]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[6]
+Posicao 2, contem o Processo ID:[14]
+Posicao 3, contem o Processo ID:[7]
+Posicao 4, contem o Processo ID:[15]
+Posicao 5, contem o Processo ID:[9]
+Posicao 6, contem o Processo ID:[16]
+Posicao 7, contem o Processo ID:[3]
+Posicao 8, contem o Processo ID:[17]
+Posicao 9, contem o Processo ID:[12]
+--------------------------------------
+
+GT[44]->Existem 9 processos na READY
+
+GT[44]->Executando na CPU ID [13]
+GT[44]->Processo ID:[13] esta no Estado: RUNNING
+GT[44]->I/O OCIOSA
+
+
+###########FIM DA [44] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[45]->O ID criado e' 45 
+GT[45]->O Burst Time do ID [45] e' 4 
+GT[45]->A Prioridade do ID [45]e' 15 
+
+GT[45]->Processo inserido na ARRIVE! ID:[45]
+GT[45]->Processo inserido ID:[45]
+GT[45]->Processo ID:[45] esta no Estado: NEW
+
+GT[45]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[18]
+Posicao 2, contem o Processo ID:[19]
+Posicao 3, contem o Processo ID:[20]
+Posicao 4, contem o Processo ID:[21]
+Posicao 5, contem o Processo ID:[22]
+Posicao 6, contem o Processo ID:[23]
+Posicao 7, contem o Processo ID:[24]
+Posicao 8, contem o Processo ID:[25]
+Posicao 9, contem o Processo ID:[26]
+Posicao 10, contem o Processo ID:[27]
+Posicao 11, contem o Processo ID:[28]
+Posicao 12, contem o Processo ID:[29]
+Posicao 13, contem o Processo ID:[30]
+Posicao 14, contem o Processo ID:[31]
+Posicao 15, contem o Processo ID:[32]
+Posicao 16, contem o Processo ID:[33]
+Posicao 17, contem o Processo ID:[34]
+Posicao 18, contem o Processo ID:[35]
+Posicao 19, contem o Processo ID:[36]
+Posicao 20, contem o Processo ID:[37]
+Posicao 21, contem o Processo ID:[38]
+Posicao 22, contem o Processo ID:[39]
+Posicao 23, contem o Processo ID:[40]
+Posicao 24, contem o Processo ID:[41]
+Posicao 25, contem o Processo ID:[42]
+Posicao 26, contem o Processo ID:[43]
+Posicao 27, contem o Processo ID:[44]
+Posicao 28, contem o Processo ID:[45]
+--------------------------------------
+
+GT[45]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[45]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[6]
+Posicao 2, contem o Processo ID:[14]
+Posicao 3, contem o Processo ID:[7]
+Posicao 4, contem o Processo ID:[15]
+Posicao 5, contem o Processo ID:[9]
+Posicao 6, contem o Processo ID:[16]
+Posicao 7, contem o Processo ID:[3]
+Posicao 8, contem o Processo ID:[17]
+Posicao 9, contem o Processo ID:[12]
+--------------------------------------
+
+GT[45]->Existem 9 processos na READY
+
+GT[45]->Executando na CPU ID [13]
+GT[45]->Processo ID:[13] esta no Estado: RUNNING
+GT[45]->I/O OCIOSA
+
+
+###########FIM DA [45] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[46]->O ID criado e' 46 
+GT[46]->O Burst Time do ID [46] e' 5 
+GT[46]->A Prioridade do ID [46]e' 17 
+
+GT[46]->Processo inserido na ARRIVE! ID:[46]
+GT[46]->Processo inserido ID:[46]
+GT[46]->Processo ID:[46] esta no Estado: NEW
+
+GT[46]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[18]
+Posicao 2, contem o Processo ID:[19]
+Posicao 3, contem o Processo ID:[20]
+Posicao 4, contem o Processo ID:[21]
+Posicao 5, contem o Processo ID:[22]
+Posicao 6, contem o Processo ID:[23]
+Posicao 7, contem o Processo ID:[24]
+Posicao 8, contem o Processo ID:[25]
+Posicao 9, contem o Processo ID:[26]
+Posicao 10, contem o Processo ID:[27]
+Posicao 11, contem o Processo ID:[28]
+Posicao 12, contem o Processo ID:[29]
+Posicao 13, contem o Processo ID:[30]
+Posicao 14, contem o Processo ID:[31]
+Posicao 15, contem o Processo ID:[32]
+Posicao 16, contem o Processo ID:[33]
+Posicao 17, contem o Processo ID:[34]
+Posicao 18, contem o Processo ID:[35]
+Posicao 19, contem o Processo ID:[36]
+Posicao 20, contem o Processo ID:[37]
+Posicao 21, contem o Processo ID:[38]
+Posicao 22, contem o Processo ID:[39]
+Posicao 23, contem o Processo ID:[40]
+Posicao 24, contem o Processo ID:[41]
+Posicao 25, contem o Processo ID:[42]
+Posicao 26, contem o Processo ID:[43]
+Posicao 27, contem o Processo ID:[44]
+Posicao 28, contem o Processo ID:[45]
+Posicao 29, contem o Processo ID:[46]
+--------------------------------------
+
+GT[46]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[46]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[6]
+Posicao 2, contem o Processo ID:[14]
+Posicao 3, contem o Processo ID:[7]
+Posicao 4, contem o Processo ID:[15]
+Posicao 5, contem o Processo ID:[9]
+Posicao 6, contem o Processo ID:[16]
+Posicao 7, contem o Processo ID:[3]
+Posicao 8, contem o Processo ID:[17]
+Posicao 9, contem o Processo ID:[12]
+--------------------------------------
+
+GT[46]->Existem 9 processos na READY
+
+GT[46]->Executando na CPU ID [13]
+GT[46]->Processo ID:[13] esta no Estado: RUNNING
+GT[46]->I/O OCIOSA
+
+
+###########FIM DA [46] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[47]->O ID criado e' 47 
+GT[47]->O Burst Time do ID [47] e' 3 
+GT[47]->A Prioridade do ID [47]e' 13 
+
+GT[47]->Processo inserido na ARRIVE! ID:[47]
+GT[47]->Processo inserido ID:[47]
+GT[47]->Processo ID:[47] esta no Estado: NEW
+
+GT[47]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[18]
+Posicao 2, contem o Processo ID:[19]
+Posicao 3, contem o Processo ID:[20]
+Posicao 4, contem o Processo ID:[21]
+Posicao 5, contem o Processo ID:[22]
+Posicao 6, contem o Processo ID:[23]
+Posicao 7, contem o Processo ID:[24]
+Posicao 8, contem o Processo ID:[25]
+Posicao 9, contem o Processo ID:[26]
+Posicao 10, contem o Processo ID:[27]
+Posicao 11, contem o Processo ID:[28]
+Posicao 12, contem o Processo ID:[29]
+Posicao 13, contem o Processo ID:[30]
+Posicao 14, contem o Processo ID:[31]
+Posicao 15, contem o Processo ID:[32]
+Posicao 16, contem o Processo ID:[33]
+Posicao 17, contem o Processo ID:[34]
+Posicao 18, contem o Processo ID:[35]
+Posicao 19, contem o Processo ID:[36]
+Posicao 20, contem o Processo ID:[37]
+Posicao 21, contem o Processo ID:[38]
+Posicao 22, contem o Processo ID:[39]
+Posicao 23, contem o Processo ID:[40]
+Posicao 24, contem o Processo ID:[41]
+Posicao 25, contem o Processo ID:[42]
+Posicao 26, contem o Processo ID:[43]
+Posicao 27, contem o Processo ID:[44]
+Posicao 28, contem o Processo ID:[45]
+Posicao 29, contem o Processo ID:[46]
+Posicao 30, contem o Processo ID:[47]
+--------------------------------------
+
+GT[47]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[47]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[6]
+Posicao 2, contem o Processo ID:[14]
+Posicao 3, contem o Processo ID:[7]
+Posicao 4, contem o Processo ID:[15]
+Posicao 5, contem o Processo ID:[9]
+Posicao 6, contem o Processo ID:[16]
+Posicao 7, contem o Processo ID:[3]
+Posicao 8, contem o Processo ID:[17]
+Posicao 9, contem o Processo ID:[12]
+--------------------------------------
+
+GT[47]->Existem 9 processos na READY
+
+GT[47]->Executando na CPU ID [13]
+GT[47]->Processo ID:[13] esta no Estado: RUNNING
+
+
+GT[47]->Processo [13] ACABOU O QUANTUM TIME 
+
+GT[47]->Processo ID:[13] esta no Estado: READY
+
+GT[47]->Processo inserido na READY! ID:[13]
+GT[47]->I/O OCIOSA
+
+
+###########FIM DA [47] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[48]->O ID criado e' 48 
+GT[48]->O Burst Time do ID [48] e' 9 
+GT[48]->A Prioridade do ID [48]e' 2 
+
+GT[48]->Processo inserido na ARRIVE! ID:[48]
+GT[48]->Processo inserido ID:[48]
+GT[48]->Processo ID:[48] esta no Estado: NEW
+
+GT[48]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[18]
+Posicao 2, contem o Processo ID:[19]
+Posicao 3, contem o Processo ID:[20]
+Posicao 4, contem o Processo ID:[21]
+Posicao 5, contem o Processo ID:[22]
+Posicao 6, contem o Processo ID:[23]
+Posicao 7, contem o Processo ID:[24]
+Posicao 8, contem o Processo ID:[25]
+Posicao 9, contem o Processo ID:[26]
+Posicao 10, contem o Processo ID:[27]
+Posicao 11, contem o Processo ID:[28]
+Posicao 12, contem o Processo ID:[29]
+Posicao 13, contem o Processo ID:[30]
+Posicao 14, contem o Processo ID:[31]
+Posicao 15, contem o Processo ID:[32]
+Posicao 16, contem o Processo ID:[33]
+Posicao 17, contem o Processo ID:[34]
+Posicao 18, contem o Processo ID:[35]
+Posicao 19, contem o Processo ID:[36]
+Posicao 20, contem o Processo ID:[37]
+Posicao 21, contem o Processo ID:[38]
+Posicao 22, contem o Processo ID:[39]
+Posicao 23, contem o Processo ID:[40]
+Posicao 24, contem o Processo ID:[41]
+Posicao 25, contem o Processo ID:[42]
+Posicao 26, contem o Processo ID:[43]
+Posicao 27, contem o Processo ID:[44]
+Posicao 28, contem o Processo ID:[45]
+Posicao 29, contem o Processo ID:[46]
+Posicao 30, contem o Processo ID:[47]
+Posicao 31, contem o Processo ID:[48]
+--------------------------------------
+
+GT[48]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[48]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[6]
+Posicao 2, contem o Processo ID:[14]
+Posicao 3, contem o Processo ID:[7]
+Posicao 4, contem o Processo ID:[15]
+Posicao 5, contem o Processo ID:[9]
+Posicao 6, contem o Processo ID:[16]
+Posicao 7, contem o Processo ID:[3]
+Posicao 8, contem o Processo ID:[17]
+Posicao 9, contem o Processo ID:[12]
+Posicao 10, contem o Processo ID:[13]
+--------------------------------------
+
+GT[48]->Existem 10 processos na READY
+
+GT[48]->Excluido da READY ID:[6]
+
+GT[48]->Tempo de espera do Processo ID:[6] foi: 29 
+
+GT[48]->Executando na CPU ID [6]
+GT[48]->Processo ID:[6] esta no Estado: RUNNING
+GT[48]->I/O OCIOSA
+
+
+###########FIM DA [48] UNIDADE DE TEMPO GLOBAL###################
+
+
+GT[49]->O ID criado e' 49 
+GT[49]->O Burst Time do ID [49] e' 9 
+GT[49]->A Prioridade do ID [49]e' 7 
+
+GT[49]->Processo inserido na ARRIVE! ID:[49]
+GT[49]->Processo inserido ID:[49]
+GT[49]->Processo ID:[49] esta no Estado: NEW
+
+GT[49]->Mostrando os Processos da ARRIVE: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[18]
+Posicao 2, contem o Processo ID:[19]
+Posicao 3, contem o Processo ID:[20]
+Posicao 4, contem o Processo ID:[21]
+Posicao 5, contem o Processo ID:[22]
+Posicao 6, contem o Processo ID:[23]
+Posicao 7, contem o Processo ID:[24]
+Posicao 8, contem o Processo ID:[25]
+Posicao 9, contem o Processo ID:[26]
+Posicao 10, contem o Processo ID:[27]
+Posicao 11, contem o Processo ID:[28]
+Posicao 12, contem o Processo ID:[29]
+Posicao 13, contem o Processo ID:[30]
+Posicao 14, contem o Processo ID:[31]
+Posicao 15, contem o Processo ID:[32]
+Posicao 16, contem o Processo ID:[33]
+Posicao 17, contem o Processo ID:[34]
+Posicao 18, contem o Processo ID:[35]
+Posicao 19, contem o Processo ID:[36]
+Posicao 20, contem o Processo ID:[37]
+Posicao 21, contem o Processo ID:[38]
+Posicao 22, contem o Processo ID:[39]
+Posicao 23, contem o Processo ID:[40]
+Posicao 24, contem o Processo ID:[41]
+Posicao 25, contem o Processo ID:[42]
+Posicao 26, contem o Processo ID:[43]
+Posicao 27, contem o Processo ID:[44]
+Posicao 28, contem o Processo ID:[45]
+Posicao 29, contem o Processo ID:[46]
+Posicao 30, contem o Processo ID:[47]
+Posicao 31, contem o Processo ID:[48]
+Posicao 32, contem o Processo ID:[49]
+--------------------------------------
+
+GT[49]->Verificacao do estado da Multiprogramacao do Sistema
+
+GT[49]->Mostrando os Processos da READY: 
+--------------------------------------
+Posicao 1, contem o Processo ID:[14]
+Posicao 2, contem o Processo ID:[7]
+Posicao 3, contem o Processo ID:[15]
+Posicao 4, contem o Processo ID:[9]
+Posicao 5, contem o Processo ID:[16]
+Posicao 6, contem o Processo ID:[3]
+Posicao 7, contem o Processo ID:[17]
+Posicao 8, contem o Processo ID:[12]
+Posicao 9, contem o Processo ID:[13]
+--------------------------------------
+
+GT[49]->Existem 9 processos na READY
+
+GT[49]->Executando na CPU ID [6]
+GT[49]->Processo ID:[6] esta no Estado: RUNNING
+GT[49]->I/O OCIOSA
+
+
+###########FIM DA [49] UNIDADE DE TEMPO GLOBAL###################
+

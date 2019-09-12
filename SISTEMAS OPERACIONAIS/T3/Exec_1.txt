@@ -1,0 +1,65 @@
+-Luis Felipe de Deus
+	Engenharia de Computação
+
+
+ARQUIVO QUE CONTEM A SAÍDA DE DADOS DA EXECUCAO 
+
+
+4 Processos terminaram sua execucao
+6 Processos completaram o I/O
+50 Processos foram criados
+O tempo de TURNAROUND medio e': 11.25
+O tempo de ESPERA medio e': 4.06
+
+--------------TEMPO DE ESPERA POR PROCESSO:--------------
+O processo [0] teve tempo de ESPERA TOTAL de: 12
+O processo [1] teve tempo de ESPERA TOTAL de: 3
+O processo [2] teve tempo de ESPERA TOTAL de: 4
+O processo [3] teve tempo de ESPERA TOTAL de: 4
+O processo [4] teve tempo de ESPERA TOTAL de: 14
+O processo [5] teve tempo de ESPERA TOTAL de: 10
+O processo [6] teve tempo de ESPERA TOTAL de: 6
+O processo [7] teve tempo de ESPERA TOTAL de: 7
+O processo [8] teve tempo de ESPERA TOTAL de: 13
+O processo [9] teve tempo de ESPERA TOTAL de: 12
+O processo [10] teve tempo de ESPERA TOTAL de: 13
+O processo [11] teve tempo de ESPERA TOTAL de: 15
+O processo [12] teve tempo de ESPERA TOTAL de: 19
+O processo [13] teve tempo de ESPERA TOTAL de: 20
+Os demais processos tiveram tempo de Espera 0 (zero), ou seja, nao ganharam a CPU
+
+--------------TEMPO DE TURNAROUND POR PROCESSO:--------------
+O processo [2] teve tempo de TURNAROUND de: 4
+O processo [3] teve tempo de TURNAROUND de: 4
+O processo [4] teve tempo de TURNAROUND de: 23
+O processo [10] teve tempo de TURNAROUND de: 14
+
+--------------TEMPO DE USO DE CPU POR PROCESSO:--------------
+O processo [0] teve tempo de CPU de: 4
+O processo [1] teve tempo de CPU de: 2
+O processo [2] teve tempo de CPU de: 1
+O processo [3] teve tempo de CPU de: 1
+O processo [4] teve tempo de CPU de: 4
+O processo [5] teve tempo de CPU de: 4
+O processo [6] teve tempo de CPU de: 2
+O processo [7] teve tempo de CPU de: 2
+O processo [8] teve tempo de CPU de: 5
+O processo [9] teve tempo de CPU de: 2
+O processo [10] teve tempo de CPU de: 2
+O processo [11] teve tempo de CPU de: 3
+O processo [12] teve tempo de CPU de: 5
+O processo [13] teve tempo de CPU de: 2
+Os demais processos nao ganharam a CPU
+
+--------------RESULTADOS & PORCENTAGENS:--------------
+Tempo que a CPU ficou ociosa foi 11, equivalente a 22.00 % 
+Tempo que a CPU foi utilizada foi 39, equivalente a 78.00 % 
+Tempo que utilizado para I/O foi 47, equivalente a 94.00 % 
+
+------Informacoes sobre as Filas------ 
+O tamanho media da Fila Arrive e' 14.00
+O tamanho media da Fila Ready e' 2.00
+O tamanho media da Lista de I/O e' 5.00
+O tempo medio de espera na ARRIVE foi de 36
+O tempo medio de espera na READY foi de 4
+O tempo medio de espera na LISTA foi de 12

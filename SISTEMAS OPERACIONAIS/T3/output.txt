@@ -1,0 +1,64 @@
+ARQUIVO QUE CONTEM A SAÍDA DE DADOS DA EXECUCAO 
+
+
+8 Processos terminaram sua execucao
+6 Processos completaram o I/O
+50 Processos foram criados
+O tempo de TURNAROUND medio e': 13.62
+O tempo de ESPERA medio e': 5.28
+
+--------------TEMPO DE ESPERA POR PROCESSO:--------------
+O processo [0] teve tempo de ESPERA TOTAL de: 2
+O processo [1] teve tempo de ESPERA TOTAL de: 3
+O processo [2] teve tempo de ESPERA TOTAL de: 14
+O processo [3] teve tempo de ESPERA TOTAL de: 24
+O processo [4] teve tempo de ESPERA TOTAL de: 8
+O processo [5] teve tempo de ESPERA TOTAL de: 9
+O processo [6] teve tempo de ESPERA TOTAL de: 39
+O processo [7] teve tempo de ESPERA TOTAL de: 13
+O processo [8] teve tempo de ESPERA TOTAL de: 16
+O processo [9] teve tempo de ESPERA TOTAL de: 18
+O processo [10] teve tempo de ESPERA TOTAL de: 20
+O processo [11] teve tempo de ESPERA TOTAL de: 25
+O processo [12] teve tempo de ESPERA TOTAL de: 28
+O processo [13] teve tempo de ESPERA TOTAL de: 29
+Os demais processos tiveram tempo de Espera 0 (zero), ou seja, nao ganharam a CPU
+
+--------------TEMPO DE TURNAROUND POR PROCESSO:--------------
+O processo [0] teve tempo de TURNAROUND de: 3
+O processo [1] teve tempo de TURNAROUND de: 3
+O processo [2] teve tempo de TURNAROUND de: 17
+O processo [4] teve tempo de TURNAROUND de: 9
+O processo [5] teve tempo de TURNAROUND de: 10
+O processo [8] teve tempo de TURNAROUND de: 18
+O processo [10] teve tempo de TURNAROUND de: 21
+O processo [11] teve tempo de TURNAROUND de: 28
+
+--------------TEMPO DE USO DE CPU POR PROCESSO:--------------
+O processo [0] teve tempo de CPU de: 2
+O processo [1] teve tempo de CPU de: 1
+O processo [2] teve tempo de CPU de: 3
+O processo [3] teve tempo de CPU de: 10
+O processo [4] teve tempo de CPU de: 2
+O processo [5] teve tempo de CPU de: 2
+O processo [6] teve tempo de CPU de: 4
+O processo [7] teve tempo de CPU de: 4
+O processo [8] teve tempo de CPU de: 3
+O processo [9] teve tempo de CPU de: 3
+O processo [10] teve tempo de CPU de: 2
+O processo [11] teve tempo de CPU de: 4
+O processo [12] teve tempo de CPU de: 2
+O processo [13] teve tempo de CPU de: 6
+Os demais processos nao ganharam a CPU
+
+--------------RESULTADOS & PORCENTAGENS:--------------
+Tempo que a CPU ficou ociosa foi 2, equivalente a 4.00 % 
+Tempo que a CPU foi utilizada foi 48, equivalente a 96.00 % 
+Tempo que utilizado para I/O foi 12, equivalente a 24.00 % 
+
+------Informacoes sobre as Filas------ 
+O tamanho media da Fila Arrive e' 12.00
+O tamanho media da Fila Ready e' 7.00
+O tamanho media da Lista de I/O e' 0.00
+\nO tempo medio de espera na ARRIVE foi de 33
+O tempo medio de espera na READY foi de 10
