@@ -1,0 +1,28 @@
+NET "board_clock" LOC = V10;
+NET "board_reset" LOC = B8;
+NET "reset_bootloader" LOC = D9;
+
+NET "tx" LOC = N18;
+NET "rx" LOC = N17;
+
+NET "prog[1]" LOC = T9;
+NET "prog[0]" LOC = T10;
+
+NET "led[0]" LOC = U16;
+NET "led[1]" LOC = V16;
+
+NET "port_io[12]" LOC = A8;
+
+NET "port_io[11]" LOC = P17;
+NET "port_io[10]" LOC = P18;
+NET "port_io[9]" LOC = N15;
+NET "port_io[8]" LOC = N16;
+
+NET "port_io[0]" LOC = M13;
+NET "port_io[1]" LOC = L14;
+NET "port_io[2]" LOC = N14;
+NET "port_io[3]" LOC = M14;
+NET "port_io[4]" LOC = U18;
+NET "port_io[5]" LOC = U17;
+NET "port_io[6]" LOC = T18;
+NET "port_io[7]" LOC = T17;
