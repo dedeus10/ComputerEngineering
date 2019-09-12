@@ -1,0 +1,1 @@
+./run_synthesis.sh JpegEnc JPEG "{dct_buffer.vhd dct_core.vhd dct_circuit.vhd rgb_ycbcr.vhd FIFO.vhd zigzag.vhd zz_top.vhd JpegEnc.vhd}" 10.0 1
