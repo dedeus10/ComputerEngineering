@@ -1,0 +1,63 @@
+topic; topic_desc; subtopic; subtopic_desc
+1; Network Management; 1; Ad-hoc networks
+1; Network Management; 2; Wireless & mobile networks
+1; Network Management; 3; IP networks
+1; Network Management; 4; LANs
+1; Network Management; 5; Optical Networks
+1; Network Management; 6; Sensor Networks
+1; Network Management; 7; Overlay Networks
+1; Network Management; 8; Virtual Networks
+1; Network Management; 9; Software Defined and Programmable Networks
+1; Network Management; 10; Data Center Networks
+1; Network Management; 11; Smart Grids
+1; Network Management; 43; Internet of Things
+2; Service Management; 12; Multimedia services (e.g., voice, video)
+2; Service Management; 13; Data services (e.g., email, web)
+2; Service Management; 14; Hosting (virtual machines)
+2; Service Management; 15; Grids
+2; Service Management; 16; Cloud services
+2; Service Management; 63; IoT Services
+2; Service Management; 64; Security Services
+3; Business Management; 20; Legal & ethical issues
+3; Business Management; 21; Process management
+3; Business Management; 65; Regulatory Perspective
+3; Business Management; 66; Economic Aspects
+4; Functional Areas; 22; Fault management
+4; Functional Areas; 23; Configuration management
+4; Functional Areas; 24; Accounting management
+4; Functional Areas; 25; Performance management
+4; Functional Areas; 26; Security management
+4; Functional Areas; 27; SLA management
+4; Functional Areas; 28; Event management
+5; Management Approaches; 18; QoE-centric management
+5; Management Approaches; 29; Centralized management
+5; Management Approaches; 30; Distributed management
+5; Management Approaches; 31; Autonomic and self management
+5; Management Approaches; 32; Policy-based management
+5; Management Approaches; 33; Federated network management
+5; Management Approaches; 34; Pro-active management
+5; Management Approaches; 35; Energy-aware network management
+6; Technologies; 17; Resource provisioning and management
+6; Technologies; 19; Service discovery, migration and orchestration
+6; Technologies; 36; Protocols
+6; Technologies; 37; Middleware
+6; Technologies; 38; Mobile agents
+6; Technologies; 39; P2P
+6; Technologies; 40; Grids
+6; Technologies; 41; Data, information, and semantic modeling
+6; Technologies; 42; Cloud computing
+6; Technologies; 44; Human Machine interaction
+6; Technologies; 45; Operations and Business Support Systems (OSS/BSS)
+6; Technologies; 67; Software-Defined Networking
+6; Technologies; 68; Network Function Virtualization
+7; Methods; 46; Control theories
+7; Methods; 47; Optimization theories
+7; Methods; 48; Economic theories
+7; Methods; 49; Machine learning and genetic algorithms
+7; Methods; 50; Logics
+7; Methods; 51; Probabilistic, stochastic processes, queuing theory
+7; Methods; 52; Simulation
+7; Methods; 53; Experimental approach
+7; Methods; 54; Design
+7; Methods; 55; Monitoring & Measurements
+7; Methods; 56; Data mining and (big) data analytics
