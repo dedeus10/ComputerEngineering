@@ -1,0 +1,123 @@
+\hypertarget{classmediator_pattern_1_1_corinthians}{}\section{mediator\+Pattern.\+Corinthians Class Reference}
+\label{classmediator_pattern_1_1_corinthians}\index{mediatorPattern.Corinthians@{mediatorPattern.Corinthians}}
+Inheritance diagram for mediator\+Pattern.\+Corinthians\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classmediator_pattern_1_1_corinthians}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classmediator_pattern_1_1_corinthians_a50e5e0a5173a9118cb9b8d366a08c458}{Corinthians}} (\mbox{\hyperlink{interfacemediator_pattern_1_1_mediator}{Mediator}} m)
+\begin{DoxyCompactList}\small\item\em Construtor do método. Cria uma nova instancia e credencia as quadras/campos. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classmediator_pattern_1_1_corinthians_a577a8ad3ad251a634cc7a7b59c9e64eb}{to\+String}} ()
+\begin{DoxyCompactList}\small\item\em Implementação do metodo to\+String para vizualização de informações da classe. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classmediator_pattern_1_1_corinthians_a53bb404236663d65e9c6362cd2623ebd}{receber\+Mensagem}} (String mensagem)
+\begin{DoxyCompactList}\small\item\em Metodo implementa uma recepção de mensagem entre os Colleagues. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classmediator_pattern_1_1_corinthians_a110ff6ae0a7adc0fac0601b836d6ad20}{marcar\+Jogo}} (\mbox{\hyperlink{interfaceadapter_pattern_1_1game_target}{game\+Target}} game)
+\begin{DoxyCompactList}\small\item\em Metodo que efetivamente marca o jogo trocando o estado da quadra/campo para marcado e informando o valor total do jogo. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classmediator_pattern_1_1_corinthians_a22f96b98b3eb3c030c46c40641a4e782}{proposed\+Analysis}} (\mbox{\hyperlink{classtemplate_pattern_1_1soccer_game}{soccer\+Game}} game)
+\begin{DoxyCompactList}\small\item\em Metodo que lista as ofertas de jogos baseado na busca do usuário. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classmediator_pattern_1_1_corinthians_a50e5e0a5173a9118cb9b8d366a08c458}\label{classmediator_pattern_1_1_corinthians_a50e5e0a5173a9118cb9b8d366a08c458}} 
+\index{mediatorPattern.Corinthians@{mediatorPattern.Corinthians}!Corinthians@{Corinthians}}
+\index{Corinthians@{Corinthians}!mediatorPattern.Corinthians@{mediatorPattern.Corinthians}}
+\subsubsection{\texorpdfstring{Corinthians()}{Corinthians()}}
+{\footnotesize\ttfamily mediator\+Pattern.\+Corinthians.\+Corinthians (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfacemediator_pattern_1_1_mediator}{Mediator}}}]{m }\end{DoxyParamCaption})}
+
+
+
+Construtor do método. Cria uma nova instancia e credencia as quadras/campos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em m} & é um objeto do tipo \mbox{\hyperlink{interfacemediator_pattern_1_1_mediator}{Mediator}} onde o estabelecimento deve se vincular posteriormente utilizando comandos Root \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classmediator_pattern_1_1_corinthians_a110ff6ae0a7adc0fac0601b836d6ad20}\label{classmediator_pattern_1_1_corinthians_a110ff6ae0a7adc0fac0601b836d6ad20}} 
+\index{mediatorPattern.Corinthians@{mediatorPattern.Corinthians}!marcarJogo@{marcarJogo}}
+\index{marcarJogo@{marcarJogo}!mediatorPattern.Corinthians@{mediatorPattern.Corinthians}}
+\subsubsection{\texorpdfstring{marcarJogo()}{marcarJogo()}}
+{\footnotesize\ttfamily double mediator\+Pattern.\+Corinthians.\+marcar\+Jogo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceadapter_pattern_1_1game_target}{game\+Target}}}]{game }\end{DoxyParamCaption})}
+
+
+
+Metodo que efetivamente marca o jogo trocando o estado da quadra/campo para marcado e informando o valor total do jogo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & é um objeto generico para um jogo (game\+Target) no qual foi usado adaptadores para representar o tipo do jogo \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+O valor total do jogo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmediator_pattern_1_1_corinthians_a22f96b98b3eb3c030c46c40641a4e782}\label{classmediator_pattern_1_1_corinthians_a22f96b98b3eb3c030c46c40641a4e782}} 
+\index{mediatorPattern.Corinthians@{mediatorPattern.Corinthians}!proposedAnalysis@{proposedAnalysis}}
+\index{proposedAnalysis@{proposedAnalysis}!mediatorPattern.Corinthians@{mediatorPattern.Corinthians}}
+\subsubsection{\texorpdfstring{proposedAnalysis()}{proposedAnalysis()}}
+{\footnotesize\ttfamily void mediator\+Pattern.\+Corinthians.\+proposed\+Analysis (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classtemplate_pattern_1_1soccer_game}{soccer\+Game}}}]{game }\end{DoxyParamCaption})}
+
+
+
+Metodo que lista as ofertas de jogos baseado na busca do usuário. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & é um objeto generico para um jogo (soccer\+Game) no qual foi usado adaptadores para representar o tipo do jogo \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmediator_pattern_1_1_corinthians_a53bb404236663d65e9c6362cd2623ebd}\label{classmediator_pattern_1_1_corinthians_a53bb404236663d65e9c6362cd2623ebd}} 
+\index{mediatorPattern.Corinthians@{mediatorPattern.Corinthians}!receberMensagem@{receberMensagem}}
+\index{receberMensagem@{receberMensagem}!mediatorPattern.Corinthians@{mediatorPattern.Corinthians}}
+\subsubsection{\texorpdfstring{receberMensagem()}{receberMensagem()}}
+{\footnotesize\ttfamily void mediator\+Pattern.\+Corinthians.\+receber\+Mensagem (\begin{DoxyParamCaption}\item[{String}]{mensagem }\end{DoxyParamCaption})}
+
+
+
+Metodo implementa uma recepção de mensagem entre os Colleagues. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mensagem} & é uma String contendo a informação recebida \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\begin{DoxyWarning}{Warning}
+atualmente utilizada apenas para debug de comunicação 
+\end{DoxyWarning}
+\mbox{\Hypertarget{classmediator_pattern_1_1_corinthians_a577a8ad3ad251a634cc7a7b59c9e64eb}\label{classmediator_pattern_1_1_corinthians_a577a8ad3ad251a634cc7a7b59c9e64eb}} 
+\index{mediatorPattern.Corinthians@{mediatorPattern.Corinthians}!toString@{toString}}
+\index{toString@{toString}!mediatorPattern.Corinthians@{mediatorPattern.Corinthians}}
+\subsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily String mediator\+Pattern.\+Corinthians.\+to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implementação do metodo to\+String para vizualização de informações da classe. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna String com informações 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/mediator\+Pattern/\mbox{\hyperlink{_corinthians_8java}{Corinthians.\+java}}\end{DoxyCompactItemize}

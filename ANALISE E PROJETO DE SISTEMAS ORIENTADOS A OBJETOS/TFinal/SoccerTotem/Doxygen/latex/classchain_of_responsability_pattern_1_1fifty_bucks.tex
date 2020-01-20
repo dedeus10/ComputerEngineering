@@ -1,0 +1,105 @@
+\hypertarget{classchain_of_responsability_pattern_1_1fifty_bucks}{}\section{chain\+Of\+Responsability\+Pattern.\+fifty\+Bucks Class Reference}
+\label{classchain_of_responsability_pattern_1_1fifty_bucks}\index{chainOfResponsabilityPattern.fiftyBucks@{chainOfResponsabilityPattern.fiftyBucks}}
+Inheritance diagram for chain\+Of\+Responsability\+Pattern.\+fifty\+Bucks\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classchain_of_responsability_pattern_1_1fifty_bucks}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classchain_of_responsability_pattern_1_1fifty_bucks_a4d3043c4cf3b43f732520252bf21bf06}{fifty\+Bucks}} (\mbox{\hyperlink{classmediator_pattern_1_1_bank}{Bank}} Ba)
+\begin{DoxyCompactList}\small\item\em Construtor da classe, cria a instancia e associa um Banco ao slot. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classchain_of_responsability_pattern_1_1fifty_bucks_a5ea94a00d828803aa2c256ba4d2c9ffb}{Addsucess}} (\mbox{\hyperlink{interfacechain_of_responsability_pattern_1_1_slots}{Slots}} sucess)
+\begin{DoxyCompactList}\small\item\em Metodo que adiciona o Slot sucessor a este slot. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classchain_of_responsability_pattern_1_1fifty_bucks_a4c121b5ed57a0de7ea0e1669d4b60b5c}{processar\+Pilas}} (Integer Bucks, double valor\+Jogo)
+\begin{DoxyCompactList}\small\item\em Implementação do metodo processar\+Pilas que verifica se o valor encaminhado é referente a este slot, no caso positivo repassa ao banco, em caso negativo repassa para o sucessor na Chain. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classchain_of_responsability_pattern_1_1fifty_bucks_a374ee3efc8a2989bb48178190c6321f3}{to\+String}} ()
+\begin{DoxyCompactList}\small\item\em Implementação do metodo to\+String para vizualização de informações da classe. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classchain_of_responsability_pattern_1_1fifty_bucks_a4d3043c4cf3b43f732520252bf21bf06}\label{classchain_of_responsability_pattern_1_1fifty_bucks_a4d3043c4cf3b43f732520252bf21bf06}} 
+\index{chainOfResponsabilityPattern.fiftyBucks@{chainOfResponsabilityPattern.fiftyBucks}!fiftyBucks@{fiftyBucks}}
+\index{fiftyBucks@{fiftyBucks}!chainOfResponsabilityPattern.fiftyBucks@{chainOfResponsabilityPattern.fiftyBucks}}
+\subsubsection{\texorpdfstring{fiftyBucks()}{fiftyBucks()}}
+{\footnotesize\ttfamily chain\+Of\+Responsability\+Pattern.\+fifty\+Bucks.\+fifty\+Bucks (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmediator_pattern_1_1_bank}{Bank}}}]{Ba }\end{DoxyParamCaption})}
+
+
+
+Construtor da classe, cria a instancia e associa um Banco ao slot. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Ba} & é um objeto do tipo Banco que contem a instancia do Banco a ser associado \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classchain_of_responsability_pattern_1_1fifty_bucks_a5ea94a00d828803aa2c256ba4d2c9ffb}\label{classchain_of_responsability_pattern_1_1fifty_bucks_a5ea94a00d828803aa2c256ba4d2c9ffb}} 
+\index{chainOfResponsabilityPattern.fiftyBucks@{chainOfResponsabilityPattern.fiftyBucks}!Addsucess@{Addsucess}}
+\index{Addsucess@{Addsucess}!chainOfResponsabilityPattern.fiftyBucks@{chainOfResponsabilityPattern.fiftyBucks}}
+\subsubsection{\texorpdfstring{Addsucess()}{Addsucess()}}
+{\footnotesize\ttfamily void chain\+Of\+Responsability\+Pattern.\+fifty\+Bucks.\+Addsucess (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfacechain_of_responsability_pattern_1_1_slots}{Slots}}}]{sucess }\end{DoxyParamCaption})}
+
+
+
+Metodo que adiciona o Slot sucessor a este slot. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sucess} & é um objeto do tipo Slot que contem a referência para o sucesso na Chain \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classchain_of_responsability_pattern_1_1fifty_bucks_a4c121b5ed57a0de7ea0e1669d4b60b5c}\label{classchain_of_responsability_pattern_1_1fifty_bucks_a4c121b5ed57a0de7ea0e1669d4b60b5c}} 
+\index{chainOfResponsabilityPattern.fiftyBucks@{chainOfResponsabilityPattern.fiftyBucks}!processarPilas@{processarPilas}}
+\index{processarPilas@{processarPilas}!chainOfResponsabilityPattern.fiftyBucks@{chainOfResponsabilityPattern.fiftyBucks}}
+\subsubsection{\texorpdfstring{processarPilas()}{processarPilas()}}
+{\footnotesize\ttfamily boolean chain\+Of\+Responsability\+Pattern.\+fifty\+Bucks.\+processar\+Pilas (\begin{DoxyParamCaption}\item[{Integer}]{Bucks,  }\item[{double}]{valor\+Jogo }\end{DoxyParamCaption})}
+
+
+
+Implementação do metodo processar\+Pilas que verifica se o valor encaminhado é referente a este slot, no caso positivo repassa ao banco, em caso negativo repassa para o sucessor na Chain. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Bucks} & é o valor da cédula recebida pelo Totem \\
+\hline
+{\em valor\+Jogo} & é o valor total que é necessário ser recebido para liberar o jogo \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True em caso de ter chegado no valor, caso contrário False 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfacechain_of_responsability_pattern_1_1_slots_ade54039583c4faf4126847fe7c143862}{chain\+Of\+Responsability\+Pattern.\+Slots}}.
+
+\mbox{\Hypertarget{classchain_of_responsability_pattern_1_1fifty_bucks_a374ee3efc8a2989bb48178190c6321f3}\label{classchain_of_responsability_pattern_1_1fifty_bucks_a374ee3efc8a2989bb48178190c6321f3}} 
+\index{chainOfResponsabilityPattern.fiftyBucks@{chainOfResponsabilityPattern.fiftyBucks}!toString@{toString}}
+\index{toString@{toString}!chainOfResponsabilityPattern.fiftyBucks@{chainOfResponsabilityPattern.fiftyBucks}}
+\subsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily String chain\+Of\+Responsability\+Pattern.\+fifty\+Bucks.\+to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implementação do metodo to\+String para vizualização de informações da classe. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna String com informações 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/chain\+Of\+Responsability\+Pattern/\mbox{\hyperlink{fifty_bucks_8java}{fifty\+Bucks.\+java}}\end{DoxyCompactItemize}

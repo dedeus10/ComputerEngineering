@@ -1,0 +1,93 @@
+\hypertarget{interfacemediator_pattern_1_1_mediator}{}\section{mediator\+Pattern.\+Mediator Interface Reference}
+\label{interfacemediator_pattern_1_1_mediator}\index{mediatorPattern.Mediator@{mediatorPattern.Mediator}}
+Inheritance diagram for mediator\+Pattern.\+Mediator\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interfacemediator_pattern_1_1_mediator}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{interfacemediator_pattern_1_1_mediator_aa65168a13dac30a0e6becf57997b5cb8}{enviar}} (String mensagem, \mbox{\hyperlink{classmediator_pattern_1_1_colleague}{Colleague}} colleague)
+\begin{DoxyCompactList}\small\item\em Protótipo de metodo que envia mensagens para os Colleagues cadastrados. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{interfacemediator_pattern_1_1_mediator_a93da9c7e1478883a0655796d88b7ee62}{marcando\+Jogo}} (\mbox{\hyperlink{classtemplate_pattern_1_1soccer_game}{soccer\+Game}} game)
+\begin{DoxyCompactList}\small\item\em Protótipo de metodo que efetivamente marca o jogo no estabelecimento. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interfacemediator_pattern_1_1_mediator_ad5219430e61d5602b1f8b7f6b8b35632}{propor\+Oferta}} (\mbox{\hyperlink{classtemplate_pattern_1_1soccer_game}{soccer\+Game}} game)
+\begin{DoxyCompactList}\small\item\em Protótipo de metodo que seleciona o \mbox{\hyperlink{classmediator_pattern_1_1_colleague}{Colleague}} que deve listar suas propostas de jogos disponíveis. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{interfacemediator_pattern_1_1_mediator_aa65168a13dac30a0e6becf57997b5cb8}\label{interfacemediator_pattern_1_1_mediator_aa65168a13dac30a0e6becf57997b5cb8}} 
+\index{mediatorPattern.Mediator@{mediatorPattern.Mediator}!enviar@{enviar}}
+\index{enviar@{enviar}!mediatorPattern.Mediator@{mediatorPattern.Mediator}}
+\subsubsection{\texorpdfstring{enviar()}{enviar()}}
+{\footnotesize\ttfamily void mediator\+Pattern.\+Mediator.\+enviar (\begin{DoxyParamCaption}\item[{String}]{mensagem,  }\item[{\mbox{\hyperlink{classmediator_pattern_1_1_colleague}{Colleague}}}]{colleague }\end{DoxyParamCaption})}
+
+
+
+Protótipo de metodo que envia mensagens para os Colleagues cadastrados. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mensagem} & é uma String contendo a informação \\
+\hline
+{\em colleague} & é a instancia de \mbox{\hyperlink{classmediator_pattern_1_1_colleague}{Colleague}} que esta tentando enviar a mensagem Broadcast neste caso \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classmediator_pattern_1_1_mediator_message_a33d287de4248954e4a9bfeaf8f1de626}{mediator\+Pattern.\+Mediator\+Message}}.
+
+\mbox{\Hypertarget{interfacemediator_pattern_1_1_mediator_a93da9c7e1478883a0655796d88b7ee62}\label{interfacemediator_pattern_1_1_mediator_a93da9c7e1478883a0655796d88b7ee62}} 
+\index{mediatorPattern.Mediator@{mediatorPattern.Mediator}!marcandoJogo@{marcandoJogo}}
+\index{marcandoJogo@{marcandoJogo}!mediatorPattern.Mediator@{mediatorPattern.Mediator}}
+\subsubsection{\texorpdfstring{marcandoJogo()}{marcandoJogo()}}
+{\footnotesize\ttfamily double mediator\+Pattern.\+Mediator.\+marcando\+Jogo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classtemplate_pattern_1_1soccer_game}{soccer\+Game}}}]{game }\end{DoxyParamCaption})}
+
+
+
+Protótipo de metodo que efetivamente marca o jogo no estabelecimento. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & é um objeto generico para um jogo (soccer\+Game) no qual foi usado adaptadores para representar o tipo do jogo \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+O valor total do jogo 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classmediator_pattern_1_1_mediator_message_a59667d8a26b4ead1cc624acfb1dc1100}{mediator\+Pattern.\+Mediator\+Message}}.
+
+\mbox{\Hypertarget{interfacemediator_pattern_1_1_mediator_ad5219430e61d5602b1f8b7f6b8b35632}\label{interfacemediator_pattern_1_1_mediator_ad5219430e61d5602b1f8b7f6b8b35632}} 
+\index{mediatorPattern.Mediator@{mediatorPattern.Mediator}!proporOferta@{proporOferta}}
+\index{proporOferta@{proporOferta}!mediatorPattern.Mediator@{mediatorPattern.Mediator}}
+\subsubsection{\texorpdfstring{proporOferta()}{proporOferta()}}
+{\footnotesize\ttfamily void mediator\+Pattern.\+Mediator.\+propor\+Oferta (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classtemplate_pattern_1_1soccer_game}{soccer\+Game}}}]{game }\end{DoxyParamCaption})}
+
+
+
+Protótipo de metodo que seleciona o \mbox{\hyperlink{classmediator_pattern_1_1_colleague}{Colleague}} que deve listar suas propostas de jogos disponíveis. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & é um objeto generico para um jogo (soccer\+Game) no qual foi usado adaptadores para representar o tipo do jogo \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classmediator_pattern_1_1_mediator_message_a5371ff6847a4c3842737c89dbb891cbe}{mediator\+Pattern.\+Mediator\+Message}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/mediator\+Pattern/\mbox{\hyperlink{_mediator_8java}{Mediator.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,123 @@
+\hypertarget{classmediator_pattern_1_1_ole_futbol}{}\section{mediator\+Pattern.\+Ole\+Futbol Class Reference}
+\label{classmediator_pattern_1_1_ole_futbol}\index{mediatorPattern.OleFutbol@{mediatorPattern.OleFutbol}}
+Inheritance diagram for mediator\+Pattern.\+Ole\+Futbol\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classmediator_pattern_1_1_ole_futbol}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classmediator_pattern_1_1_ole_futbol_a927e64545a235ecff47866b05512f396}{Ole\+Futbol}} (\mbox{\hyperlink{interfacemediator_pattern_1_1_mediator}{Mediator}} m)
+\begin{DoxyCompactList}\small\item\em Construtor do método. Cria uma nova instancia e credencia as quadras/campos. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classmediator_pattern_1_1_ole_futbol_aa9e78578bee9863c98d2728f480a98ea}{to\+String}} ()
+\begin{DoxyCompactList}\small\item\em Implementação do metodo to\+String para vizualização de informações da classe. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classmediator_pattern_1_1_ole_futbol_a805bfcc19251a67ab40cd3aa9a92755d}{receber\+Mensagem}} (String mensagem)
+\begin{DoxyCompactList}\small\item\em Metodo implementa uma recepção de mensagem entre os Colleagues. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classmediator_pattern_1_1_ole_futbol_a8ba496698151974ffebb69a63bae631c}{marcar\+Jogo}} (\mbox{\hyperlink{interfaceadapter_pattern_1_1game_target}{game\+Target}} game)
+\begin{DoxyCompactList}\small\item\em Metodo que efetivamente marca o jogo trocando o estado da quadra/campo para marcado e informando o valor total do jogo. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classmediator_pattern_1_1_ole_futbol_a190be5361527915636cca3c3f75ae696}{proposed\+Analysis}} (\mbox{\hyperlink{classtemplate_pattern_1_1soccer_game}{soccer\+Game}} game)
+\begin{DoxyCompactList}\small\item\em Metodo que lista as ofertas de jogos baseado na busca do usuário. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classmediator_pattern_1_1_ole_futbol_a927e64545a235ecff47866b05512f396}\label{classmediator_pattern_1_1_ole_futbol_a927e64545a235ecff47866b05512f396}} 
+\index{mediatorPattern.OleFutbol@{mediatorPattern.OleFutbol}!OleFutbol@{OleFutbol}}
+\index{OleFutbol@{OleFutbol}!mediatorPattern.OleFutbol@{mediatorPattern.OleFutbol}}
+\subsubsection{\texorpdfstring{OleFutbol()}{OleFutbol()}}
+{\footnotesize\ttfamily mediator\+Pattern.\+Ole\+Futbol.\+Ole\+Futbol (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfacemediator_pattern_1_1_mediator}{Mediator}}}]{m }\end{DoxyParamCaption})}
+
+
+
+Construtor do método. Cria uma nova instancia e credencia as quadras/campos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em m} & é um objeto do tipo \mbox{\hyperlink{interfacemediator_pattern_1_1_mediator}{Mediator}} onde o estabelecimento deve se vincular posteriormente utilizando comandos Root \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classmediator_pattern_1_1_ole_futbol_a8ba496698151974ffebb69a63bae631c}\label{classmediator_pattern_1_1_ole_futbol_a8ba496698151974ffebb69a63bae631c}} 
+\index{mediatorPattern.OleFutbol@{mediatorPattern.OleFutbol}!marcarJogo@{marcarJogo}}
+\index{marcarJogo@{marcarJogo}!mediatorPattern.OleFutbol@{mediatorPattern.OleFutbol}}
+\subsubsection{\texorpdfstring{marcarJogo()}{marcarJogo()}}
+{\footnotesize\ttfamily double mediator\+Pattern.\+Ole\+Futbol.\+marcar\+Jogo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceadapter_pattern_1_1game_target}{game\+Target}}}]{game }\end{DoxyParamCaption})}
+
+
+
+Metodo que efetivamente marca o jogo trocando o estado da quadra/campo para marcado e informando o valor total do jogo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & é um objeto generico para um jogo (game\+Target) no qual foi usado adaptadores para representar o tipo do jogo \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+O valor total do jogo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmediator_pattern_1_1_ole_futbol_a190be5361527915636cca3c3f75ae696}\label{classmediator_pattern_1_1_ole_futbol_a190be5361527915636cca3c3f75ae696}} 
+\index{mediatorPattern.OleFutbol@{mediatorPattern.OleFutbol}!proposedAnalysis@{proposedAnalysis}}
+\index{proposedAnalysis@{proposedAnalysis}!mediatorPattern.OleFutbol@{mediatorPattern.OleFutbol}}
+\subsubsection{\texorpdfstring{proposedAnalysis()}{proposedAnalysis()}}
+{\footnotesize\ttfamily void mediator\+Pattern.\+Ole\+Futbol.\+proposed\+Analysis (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classtemplate_pattern_1_1soccer_game}{soccer\+Game}}}]{game }\end{DoxyParamCaption})}
+
+
+
+Metodo que lista as ofertas de jogos baseado na busca do usuário. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & é um objeto generico para um jogo (soccer\+Game) no qual foi usado adaptadores para representar o tipo do jogo \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmediator_pattern_1_1_ole_futbol_a805bfcc19251a67ab40cd3aa9a92755d}\label{classmediator_pattern_1_1_ole_futbol_a805bfcc19251a67ab40cd3aa9a92755d}} 
+\index{mediatorPattern.OleFutbol@{mediatorPattern.OleFutbol}!receberMensagem@{receberMensagem}}
+\index{receberMensagem@{receberMensagem}!mediatorPattern.OleFutbol@{mediatorPattern.OleFutbol}}
+\subsubsection{\texorpdfstring{receberMensagem()}{receberMensagem()}}
+{\footnotesize\ttfamily void mediator\+Pattern.\+Ole\+Futbol.\+receber\+Mensagem (\begin{DoxyParamCaption}\item[{String}]{mensagem }\end{DoxyParamCaption})}
+
+
+
+Metodo implementa uma recepção de mensagem entre os Colleagues. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mensagem} & é uma String contendo a informação recebida \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\begin{DoxyWarning}{Warning}
+atualmente utilizada apenas para debug de comunicação 
+\end{DoxyWarning}
+\mbox{\Hypertarget{classmediator_pattern_1_1_ole_futbol_aa9e78578bee9863c98d2728f480a98ea}\label{classmediator_pattern_1_1_ole_futbol_aa9e78578bee9863c98d2728f480a98ea}} 
+\index{mediatorPattern.OleFutbol@{mediatorPattern.OleFutbol}!toString@{toString}}
+\index{toString@{toString}!mediatorPattern.OleFutbol@{mediatorPattern.OleFutbol}}
+\subsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily String mediator\+Pattern.\+Ole\+Futbol.\+to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implementação do metodo to\+String para vizualização de informações da classe. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna String com informações 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/mediator\+Pattern/\mbox{\hyperlink{_ole_futbol_8java}{Ole\+Futbol.\+java}}\end{DoxyCompactItemize}

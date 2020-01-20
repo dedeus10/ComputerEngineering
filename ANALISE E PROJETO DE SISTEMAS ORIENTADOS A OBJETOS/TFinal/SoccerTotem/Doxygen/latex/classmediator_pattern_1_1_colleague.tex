@@ -1,0 +1,113 @@
+\hypertarget{classmediator_pattern_1_1_colleague}{}\section{mediator\+Pattern.\+Colleague Class Reference}
+\label{classmediator_pattern_1_1_colleague}\index{mediatorPattern.Colleague@{mediatorPattern.Colleague}}
+Inheritance diagram for mediator\+Pattern.\+Colleague\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.230769cm]{classmediator_pattern_1_1_colleague}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classmediator_pattern_1_1_colleague_aa6743736562c0696099805ce69329856}{Colleague}} (\mbox{\hyperlink{interfacemediator_pattern_1_1_mediator}{Mediator}} m)
+\begin{DoxyCompactList}\small\item\em Construtor da classe que cria uma instancia de colleague e vincula ao mediator. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classmediator_pattern_1_1_colleague_ab5fad1a9bc7ea337570d9da6f795731f}{enviar\+Mensagem}} (String mensagem)
+\begin{DoxyCompactList}\small\item\em Metodo que invoca o mediator para enviar mensagens para os Colleagues cadastrados. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classmediator_pattern_1_1_colleague_ae661501777728adf280e9c5b447d99a2}{propor\+Oferta}} (\mbox{\hyperlink{classtemplate_pattern_1_1soccer_game}{soccer\+Game}} game)
+\begin{DoxyCompactList}\small\item\em Metodo invoca o mediator para que ele selecione o \mbox{\hyperlink{classmediator_pattern_1_1_colleague}{Colleague}} que deve listar suas propostas de jogos disponíveis. \end{DoxyCompactList}\item 
+abstract void \mbox{\hyperlink{classmediator_pattern_1_1_colleague_ad18791118d9a9897252bc68f4a7ee045}{receber\+Mensagem}} (String mensagem)
+\begin{DoxyCompactList}\small\item\em Protótipo de metodo abstrato que deve ser implementado pelos colleagues vinculados. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{interfacemediator_pattern_1_1_mediator}{Mediator}} \mbox{\hyperlink{classmediator_pattern_1_1_colleague_a2c5e9bbff6e49aca728d19fb3daf2aa1}{mediator}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classmediator_pattern_1_1_colleague_aa6743736562c0696099805ce69329856}\label{classmediator_pattern_1_1_colleague_aa6743736562c0696099805ce69329856}} 
+\index{mediatorPattern.Colleague@{mediatorPattern.Colleague}!Colleague@{Colleague}}
+\index{Colleague@{Colleague}!mediatorPattern.Colleague@{mediatorPattern.Colleague}}
+\subsubsection{\texorpdfstring{Colleague()}{Colleague()}}
+{\footnotesize\ttfamily mediator\+Pattern.\+Colleague.\+Colleague (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfacemediator_pattern_1_1_mediator}{Mediator}}}]{m }\end{DoxyParamCaption})}
+
+
+
+Construtor da classe que cria uma instancia de colleague e vincula ao mediator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em m} & instância de um mediator usado para vinculo \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classmediator_pattern_1_1_colleague_ab5fad1a9bc7ea337570d9da6f795731f}\label{classmediator_pattern_1_1_colleague_ab5fad1a9bc7ea337570d9da6f795731f}} 
+\index{mediatorPattern.Colleague@{mediatorPattern.Colleague}!enviarMensagem@{enviarMensagem}}
+\index{enviarMensagem@{enviarMensagem}!mediatorPattern.Colleague@{mediatorPattern.Colleague}}
+\subsubsection{\texorpdfstring{enviarMensagem()}{enviarMensagem()}}
+{\footnotesize\ttfamily void mediator\+Pattern.\+Colleague.\+enviar\+Mensagem (\begin{DoxyParamCaption}\item[{String}]{mensagem }\end{DoxyParamCaption})}
+
+
+
+Metodo que invoca o mediator para enviar mensagens para os Colleagues cadastrados. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mensagem} & é uma String contendo a informação \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmediator_pattern_1_1_colleague_ae661501777728adf280e9c5b447d99a2}\label{classmediator_pattern_1_1_colleague_ae661501777728adf280e9c5b447d99a2}} 
+\index{mediatorPattern.Colleague@{mediatorPattern.Colleague}!proporOferta@{proporOferta}}
+\index{proporOferta@{proporOferta}!mediatorPattern.Colleague@{mediatorPattern.Colleague}}
+\subsubsection{\texorpdfstring{proporOferta()}{proporOferta()}}
+{\footnotesize\ttfamily void mediator\+Pattern.\+Colleague.\+propor\+Oferta (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classtemplate_pattern_1_1soccer_game}{soccer\+Game}}}]{game }\end{DoxyParamCaption})}
+
+
+
+Metodo invoca o mediator para que ele selecione o \mbox{\hyperlink{classmediator_pattern_1_1_colleague}{Colleague}} que deve listar suas propostas de jogos disponíveis. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & é um objeto generico para um jogo (soccer\+Game) no qual foi usado adaptadores para representar o tipo do jogo \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmediator_pattern_1_1_colleague_ad18791118d9a9897252bc68f4a7ee045}\label{classmediator_pattern_1_1_colleague_ad18791118d9a9897252bc68f4a7ee045}} 
+\index{mediatorPattern.Colleague@{mediatorPattern.Colleague}!receberMensagem@{receberMensagem}}
+\index{receberMensagem@{receberMensagem}!mediatorPattern.Colleague@{mediatorPattern.Colleague}}
+\subsubsection{\texorpdfstring{receberMensagem()}{receberMensagem()}}
+{\footnotesize\ttfamily abstract void mediator\+Pattern.\+Colleague.\+receber\+Mensagem (\begin{DoxyParamCaption}\item[{String}]{mensagem }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+
+
+Protótipo de metodo abstrato que deve ser implementado pelos colleagues vinculados. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mensagem} & é uma String contendo a informação \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classmediator_pattern_1_1_colleague_a2c5e9bbff6e49aca728d19fb3daf2aa1}\label{classmediator_pattern_1_1_colleague_a2c5e9bbff6e49aca728d19fb3daf2aa1}} 
+\index{mediatorPattern.Colleague@{mediatorPattern.Colleague}!mediator@{mediator}}
+\index{mediator@{mediator}!mediatorPattern.Colleague@{mediatorPattern.Colleague}}
+\subsubsection{\texorpdfstring{mediator}{mediator}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfacemediator_pattern_1_1_mediator}{Mediator}} mediator\+Pattern.\+Colleague.\+mediator\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/mediator\+Pattern/\mbox{\hyperlink{_colleague_8java}{Colleague.\+java}}\end{DoxyCompactItemize}

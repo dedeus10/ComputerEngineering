@@ -1,0 +1,183 @@
+\hypertarget{classadapter_pattern_1_1field_game_adapter}{}\section{adapter\+Pattern.\+field\+Game\+Adapter Class Reference}
+\label{classadapter_pattern_1_1field_game_adapter}\index{adapterPattern.fieldGameAdapter@{adapterPattern.fieldGameAdapter}}
+Inheritance diagram for adapter\+Pattern.\+field\+Game\+Adapter\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classadapter_pattern_1_1field_game_adapter}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classadapter_pattern_1_1field_game_adapter_a6a08d37797c204b6dfff86d9f827c0c5}{reservaL}} (\mbox{\hyperlink{classmediator_pattern_1_1_colleague}{Colleague}} colleague)
+\begin{DoxyCompactList}\small\item\em Método que faz o link entre o metodo reserva\+Local da classe alvo do adaptador. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classadapter_pattern_1_1field_game_adapter_ab9c41ada4fcec05ce596f4de3511723d}{reservaC}} ()
+\begin{DoxyCompactList}\small\item\em Método que faz o link entre o metodo reservaC da classe alvo do adaptador. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classadapter_pattern_1_1field_game_adapter_aef66fcf4766fd5edd94bf729b02e5a2a}{reservaA}} ()
+\begin{DoxyCompactList}\small\item\em Método que faz o link entre o metodo reserva\+Assador da classe alvo do adaptador. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classadapter_pattern_1_1field_game_adapter_ac7a3e7caa73d727325f59198db4f1674}{get\+Code}} ()
+\begin{DoxyCompactList}\small\item\em Método que faz o link entre o metodo get\+Codigo da classe alvo do adaptador @ param void. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classadapter_pattern_1_1field_game_adapter_a4987c7e6aa3183a1c042f32432f1db8b}{set\+Code}} (String \mbox{\hyperlink{classtemplate_pattern_1_1field_game_a8d9280367beb48b44a71265ebd2aed95}{codigo}})
+\begin{DoxyCompactList}\small\item\em Método que faz o link entre o metodo set\+Code da classe alvo do adaptador. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classmediator_pattern_1_1_colleague}{Colleague}} \mbox{\hyperlink{classadapter_pattern_1_1field_game_adapter_acdddca2c22e22b6b52dcd4d9d6cd06fc}{get\+Col}} ()
+\begin{DoxyCompactList}\small\item\em Método que faz o link entre o metodo get\+Colleague da classe alvo do adaptador. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classadapter_pattern_1_1field_game_adapter_a1b2122a14b0bab5a09d065da2bd7e4bc}{set\+Col}} (\mbox{\hyperlink{classmediator_pattern_1_1_colleague}{Colleague}} c)
+\begin{DoxyCompactList}\small\item\em Método que faz o link entre o metodo set\+Colleague da classe alvo do adaptador. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classadapter_pattern_1_1field_game_adapter_ac7a3e7caa73d727325f59198db4f1674}\label{classadapter_pattern_1_1field_game_adapter_ac7a3e7caa73d727325f59198db4f1674}} 
+\index{adapterPattern.fieldGameAdapter@{adapterPattern.fieldGameAdapter}!getCode@{getCode}}
+\index{getCode@{getCode}!adapterPattern.fieldGameAdapter@{adapterPattern.fieldGameAdapter}}
+\subsubsection{\texorpdfstring{getCode()}{getCode()}}
+{\footnotesize\ttfamily String adapter\+Pattern.\+field\+Game\+Adapter.\+get\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Método que faz o link entre o metodo get\+Codigo da classe alvo do adaptador @ param void. 
+
+\begin{DoxyReturn}{Returns}
+valor de retorno é a String do código 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceadapter_pattern_1_1game_target_a32fce3f3dd420116a031b051f2464304}{adapter\+Pattern.\+game\+Target}}.
+
+\mbox{\Hypertarget{classadapter_pattern_1_1field_game_adapter_acdddca2c22e22b6b52dcd4d9d6cd06fc}\label{classadapter_pattern_1_1field_game_adapter_acdddca2c22e22b6b52dcd4d9d6cd06fc}} 
+\index{adapterPattern.fieldGameAdapter@{adapterPattern.fieldGameAdapter}!getCol@{getCol}}
+\index{getCol@{getCol}!adapterPattern.fieldGameAdapter@{adapterPattern.fieldGameAdapter}}
+\subsubsection{\texorpdfstring{getCol()}{getCol()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classmediator_pattern_1_1_colleague}{Colleague}} adapter\+Pattern.\+field\+Game\+Adapter.\+get\+Col (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Método que faz o link entre o metodo get\+Colleague da classe alvo do adaptador. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorno é um objeto Colleague que representa o estabelecimento cadastrado no mediator 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceadapter_pattern_1_1game_target_ad3fc8b4c4a732bcc875071ed0c081261}{adapter\+Pattern.\+game\+Target}}.
+
+\mbox{\Hypertarget{classadapter_pattern_1_1field_game_adapter_aef66fcf4766fd5edd94bf729b02e5a2a}\label{classadapter_pattern_1_1field_game_adapter_aef66fcf4766fd5edd94bf729b02e5a2a}} 
+\index{adapterPattern.fieldGameAdapter@{adapterPattern.fieldGameAdapter}!reservaA@{reservaA}}
+\index{reservaA@{reservaA}!adapterPattern.fieldGameAdapter@{adapterPattern.fieldGameAdapter}}
+\subsubsection{\texorpdfstring{reservaA()}{reservaA()}}
+{\footnotesize\ttfamily void adapter\+Pattern.\+field\+Game\+Adapter.\+reservaA (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Método que faz o link entre o metodo reserva\+Assador da classe alvo do adaptador. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceadapter_pattern_1_1game_target_a67348260f14d11e317195e2d66dbff18}{adapter\+Pattern.\+game\+Target}}.
+
+\mbox{\Hypertarget{classadapter_pattern_1_1field_game_adapter_ab9c41ada4fcec05ce596f4de3511723d}\label{classadapter_pattern_1_1field_game_adapter_ab9c41ada4fcec05ce596f4de3511723d}} 
+\index{adapterPattern.fieldGameAdapter@{adapterPattern.fieldGameAdapter}!reservaC@{reservaC}}
+\index{reservaC@{reservaC}!adapterPattern.fieldGameAdapter@{adapterPattern.fieldGameAdapter}}
+\subsubsection{\texorpdfstring{reservaC()}{reservaC()}}
+{\footnotesize\ttfamily void adapter\+Pattern.\+field\+Game\+Adapter.\+reservaC (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Método que faz o link entre o metodo reservaC da classe alvo do adaptador. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceadapter_pattern_1_1game_target_ae8c1c944929700a3e120e641118c9188}{adapter\+Pattern.\+game\+Target}}.
+
+\mbox{\Hypertarget{classadapter_pattern_1_1field_game_adapter_a6a08d37797c204b6dfff86d9f827c0c5}\label{classadapter_pattern_1_1field_game_adapter_a6a08d37797c204b6dfff86d9f827c0c5}} 
+\index{adapterPattern.fieldGameAdapter@{adapterPattern.fieldGameAdapter}!reservaL@{reservaL}}
+\index{reservaL@{reservaL}!adapterPattern.fieldGameAdapter@{adapterPattern.fieldGameAdapter}}
+\subsubsection{\texorpdfstring{reservaL()}{reservaL()}}
+{\footnotesize\ttfamily void adapter\+Pattern.\+field\+Game\+Adapter.\+reservaL (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmediator_pattern_1_1_colleague}{Colleague}}}]{colleague }\end{DoxyParamCaption})}
+
+
+
+Método que faz o link entre o metodo reserva\+Local da classe alvo do adaptador. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em colleague} & é um objeto do tipo Colleague que representa um dos estabelecimentos cadastrados no mediator \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceadapter_pattern_1_1game_target_a663405a3d10988de25c6ea3ef63c68eb}{adapter\+Pattern.\+game\+Target}}.
+
+\mbox{\Hypertarget{classadapter_pattern_1_1field_game_adapter_a4987c7e6aa3183a1c042f32432f1db8b}\label{classadapter_pattern_1_1field_game_adapter_a4987c7e6aa3183a1c042f32432f1db8b}} 
+\index{adapterPattern.fieldGameAdapter@{adapterPattern.fieldGameAdapter}!setCode@{setCode}}
+\index{setCode@{setCode}!adapterPattern.fieldGameAdapter@{adapterPattern.fieldGameAdapter}}
+\subsubsection{\texorpdfstring{setCode()}{setCode()}}
+{\footnotesize\ttfamily void adapter\+Pattern.\+field\+Game\+Adapter.\+set\+Code (\begin{DoxyParamCaption}\item[{String}]{codigo }\end{DoxyParamCaption})}
+
+
+
+Método que faz o link entre o metodo set\+Code da classe alvo do adaptador. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em codigo} & é uma String que contem o codigo da oferta selecionada pelo usuario (4 caracteres) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceadapter_pattern_1_1game_target_a9ea61c0d011aa457f9a8c887d086044a}{adapter\+Pattern.\+game\+Target}}.
+
+\mbox{\Hypertarget{classadapter_pattern_1_1field_game_adapter_a1b2122a14b0bab5a09d065da2bd7e4bc}\label{classadapter_pattern_1_1field_game_adapter_a1b2122a14b0bab5a09d065da2bd7e4bc}} 
+\index{adapterPattern.fieldGameAdapter@{adapterPattern.fieldGameAdapter}!setCol@{setCol}}
+\index{setCol@{setCol}!adapterPattern.fieldGameAdapter@{adapterPattern.fieldGameAdapter}}
+\subsubsection{\texorpdfstring{setCol()}{setCol()}}
+{\footnotesize\ttfamily void adapter\+Pattern.\+field\+Game\+Adapter.\+set\+Col (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmediator_pattern_1_1_colleague}{Colleague}}}]{c }\end{DoxyParamCaption})}
+
+
+
+Método que faz o link entre o metodo set\+Colleague da classe alvo do adaptador. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & é um objeto do tipo Colleague que representa um dos estabelecimentos cadastrados no mediator \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceadapter_pattern_1_1game_target_ae4493af8f85c0459e4e628ffff3fe3b9}{adapter\+Pattern.\+game\+Target}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/adapter\+Pattern/\mbox{\hyperlink{field_game_adapter_8java}{field\+Game\+Adapter.\+java}}\end{DoxyCompactItemize}

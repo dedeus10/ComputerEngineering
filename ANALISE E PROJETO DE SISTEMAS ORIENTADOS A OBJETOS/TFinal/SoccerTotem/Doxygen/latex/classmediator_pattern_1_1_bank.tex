@@ -1,0 +1,105 @@
+\hypertarget{classmediator_pattern_1_1_bank}{}\section{mediator\+Pattern.\+Bank Class Reference}
+\label{classmediator_pattern_1_1_bank}\index{mediatorPattern.Bank@{mediatorPattern.Bank}}
+Inheritance diagram for mediator\+Pattern.\+Bank\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classmediator_pattern_1_1_bank}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classmediator_pattern_1_1_bank_ae4ad12d1d757ea70252a43b77278e2f7}{Bank}} (\mbox{\hyperlink{interfacemediator_pattern_1_1_mediator}{Mediator}} m)
+\begin{DoxyCompactList}\small\item\em Construtor do método. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classmediator_pattern_1_1_bank_a6a7daed810dd886ff48fb95a1adc977c}{receber\+Mensagem}} (String mensagem)
+\begin{DoxyCompactList}\small\item\em Metodo implementa uma recepção de mensagem entre os Colleagues. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classmediator_pattern_1_1_bank_afe945c98e30b089256042309b907154d}{new\+Buck}} (Integer Bucks, double valor\+Jogo)
+\begin{DoxyCompactList}\small\item\em Metodo que recebe uma nova cedula e processa, incrementando no valor atual verificando se o valor atual chegou a quantia necessária para pagar pelo jogo. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classmediator_pattern_1_1_bank_a8851099b55fb54ca7b0c053745411804}{to\+String}} ()
+\begin{DoxyCompactList}\small\item\em Implementação do metodo to\+String para vizualização de informações da classe. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classmediator_pattern_1_1_bank_ae4ad12d1d757ea70252a43b77278e2f7}\label{classmediator_pattern_1_1_bank_ae4ad12d1d757ea70252a43b77278e2f7}} 
+\index{mediatorPattern.Bank@{mediatorPattern.Bank}!Bank@{Bank}}
+\index{Bank@{Bank}!mediatorPattern.Bank@{mediatorPattern.Bank}}
+\subsubsection{\texorpdfstring{Bank()}{Bank()}}
+{\footnotesize\ttfamily mediator\+Pattern.\+Bank.\+Bank (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfacemediator_pattern_1_1_mediator}{Mediator}}}]{m }\end{DoxyParamCaption})}
+
+
+
+Construtor do método. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em m} & é um objeto do tipo \mbox{\hyperlink{interfacemediator_pattern_1_1_mediator}{Mediator}} onde o banco deve se vincular posteriormente utilizando comandos Root \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classmediator_pattern_1_1_bank_afe945c98e30b089256042309b907154d}\label{classmediator_pattern_1_1_bank_afe945c98e30b089256042309b907154d}} 
+\index{mediatorPattern.Bank@{mediatorPattern.Bank}!newBuck@{newBuck}}
+\index{newBuck@{newBuck}!mediatorPattern.Bank@{mediatorPattern.Bank}}
+\subsubsection{\texorpdfstring{newBuck()}{newBuck()}}
+{\footnotesize\ttfamily boolean mediator\+Pattern.\+Bank.\+new\+Buck (\begin{DoxyParamCaption}\item[{Integer}]{Bucks,  }\item[{double}]{valor\+Jogo }\end{DoxyParamCaption})}
+
+
+
+Metodo que recebe uma nova cedula e processa, incrementando no valor atual verificando se o valor atual chegou a quantia necessária para pagar pelo jogo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Bucks} & é o valor da cedula a ser processada \\
+\hline
+{\em valor\+Jogo} & é o valor total necessário para pagar o jogo \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True caso o valor atual no banco seja suficiente para pagar o jogo, caso contrario False 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmediator_pattern_1_1_bank_a6a7daed810dd886ff48fb95a1adc977c}\label{classmediator_pattern_1_1_bank_a6a7daed810dd886ff48fb95a1adc977c}} 
+\index{mediatorPattern.Bank@{mediatorPattern.Bank}!receberMensagem@{receberMensagem}}
+\index{receberMensagem@{receberMensagem}!mediatorPattern.Bank@{mediatorPattern.Bank}}
+\subsubsection{\texorpdfstring{receberMensagem()}{receberMensagem()}}
+{\footnotesize\ttfamily void mediator\+Pattern.\+Bank.\+receber\+Mensagem (\begin{DoxyParamCaption}\item[{String}]{mensagem }\end{DoxyParamCaption})}
+
+
+
+Metodo implementa uma recepção de mensagem entre os Colleagues. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mensagem} & é uma String contendo a informação recebida \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\begin{DoxyWarning}{Warning}
+atualmente utilizada apenas para debug de comunicação 
+\end{DoxyWarning}
+\mbox{\Hypertarget{classmediator_pattern_1_1_bank_a8851099b55fb54ca7b0c053745411804}\label{classmediator_pattern_1_1_bank_a8851099b55fb54ca7b0c053745411804}} 
+\index{mediatorPattern.Bank@{mediatorPattern.Bank}!toString@{toString}}
+\index{toString@{toString}!mediatorPattern.Bank@{mediatorPattern.Bank}}
+\subsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily String mediator\+Pattern.\+Bank.\+to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implementação do metodo to\+String para vizualização de informações da classe. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna String com informações 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/mediator\+Pattern/\mbox{\hyperlink{_bank_8java}{Bank.\+java}}\end{DoxyCompactItemize}

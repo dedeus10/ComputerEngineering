@@ -1,0 +1,123 @@
+\hypertarget{classmediator_pattern_1_1_dalla_favera}{}\section{mediator\+Pattern.\+Dalla\+Favera Class Reference}
+\label{classmediator_pattern_1_1_dalla_favera}\index{mediatorPattern.DallaFavera@{mediatorPattern.DallaFavera}}
+Inheritance diagram for mediator\+Pattern.\+Dalla\+Favera\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classmediator_pattern_1_1_dalla_favera}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classmediator_pattern_1_1_dalla_favera_a9c66c302dff8edae02fa7964c62c4596}{Dalla\+Favera}} (\mbox{\hyperlink{interfacemediator_pattern_1_1_mediator}{Mediator}} m)
+\begin{DoxyCompactList}\small\item\em Construtor do método. Cria uma nova instancia e credencia as quadras/campos. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classmediator_pattern_1_1_dalla_favera_a7b255e14ecacd6f0bb0e5658ad26437d}{to\+String}} ()
+\begin{DoxyCompactList}\small\item\em Implementação do metodo to\+String para vizualização de informações da classe. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classmediator_pattern_1_1_dalla_favera_a96c0fbf7e2f33a3b8176c1993f6cf8e2}{receber\+Mensagem}} (String mensagem)
+\begin{DoxyCompactList}\small\item\em Metodo implementa uma recepção de mensagem entre os Colleagues. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classmediator_pattern_1_1_dalla_favera_a56aacf69df5457b341d5bd0a4b3164eb}{marcar\+Jogo}} (\mbox{\hyperlink{interfaceadapter_pattern_1_1game_target}{game\+Target}} game)
+\begin{DoxyCompactList}\small\item\em Metodo que efetivamente marca o jogo trocando o estado da quadra/campo para marcado e informando o valor total do jogo. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classmediator_pattern_1_1_dalla_favera_a2c916582524a756d23c263b62335b432}{proposed\+Analysis}} (\mbox{\hyperlink{classtemplate_pattern_1_1soccer_game}{soccer\+Game}} game)
+\begin{DoxyCompactList}\small\item\em Metodo que lista as ofertas de jogos baseado na busca do usuário. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classmediator_pattern_1_1_dalla_favera_a9c66c302dff8edae02fa7964c62c4596}\label{classmediator_pattern_1_1_dalla_favera_a9c66c302dff8edae02fa7964c62c4596}} 
+\index{mediatorPattern.DallaFavera@{mediatorPattern.DallaFavera}!DallaFavera@{DallaFavera}}
+\index{DallaFavera@{DallaFavera}!mediatorPattern.DallaFavera@{mediatorPattern.DallaFavera}}
+\subsubsection{\texorpdfstring{DallaFavera()}{DallaFavera()}}
+{\footnotesize\ttfamily mediator\+Pattern.\+Dalla\+Favera.\+Dalla\+Favera (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfacemediator_pattern_1_1_mediator}{Mediator}}}]{m }\end{DoxyParamCaption})}
+
+
+
+Construtor do método. Cria uma nova instancia e credencia as quadras/campos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em m} & é um objeto do tipo \mbox{\hyperlink{interfacemediator_pattern_1_1_mediator}{Mediator}} onde o estabelecimento deve se vincular posteriormente utilizando comandos Root \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classmediator_pattern_1_1_dalla_favera_a56aacf69df5457b341d5bd0a4b3164eb}\label{classmediator_pattern_1_1_dalla_favera_a56aacf69df5457b341d5bd0a4b3164eb}} 
+\index{mediatorPattern.DallaFavera@{mediatorPattern.DallaFavera}!marcarJogo@{marcarJogo}}
+\index{marcarJogo@{marcarJogo}!mediatorPattern.DallaFavera@{mediatorPattern.DallaFavera}}
+\subsubsection{\texorpdfstring{marcarJogo()}{marcarJogo()}}
+{\footnotesize\ttfamily double mediator\+Pattern.\+Dalla\+Favera.\+marcar\+Jogo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceadapter_pattern_1_1game_target}{game\+Target}}}]{game }\end{DoxyParamCaption})}
+
+
+
+Metodo que efetivamente marca o jogo trocando o estado da quadra/campo para marcado e informando o valor total do jogo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & é um objeto generico para um jogo (game\+Target) no qual foi usado adaptadores para representar o tipo do jogo \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+O valor total do jogo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmediator_pattern_1_1_dalla_favera_a2c916582524a756d23c263b62335b432}\label{classmediator_pattern_1_1_dalla_favera_a2c916582524a756d23c263b62335b432}} 
+\index{mediatorPattern.DallaFavera@{mediatorPattern.DallaFavera}!proposedAnalysis@{proposedAnalysis}}
+\index{proposedAnalysis@{proposedAnalysis}!mediatorPattern.DallaFavera@{mediatorPattern.DallaFavera}}
+\subsubsection{\texorpdfstring{proposedAnalysis()}{proposedAnalysis()}}
+{\footnotesize\ttfamily void mediator\+Pattern.\+Dalla\+Favera.\+proposed\+Analysis (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classtemplate_pattern_1_1soccer_game}{soccer\+Game}}}]{game }\end{DoxyParamCaption})}
+
+
+
+Metodo que lista as ofertas de jogos baseado na busca do usuário. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & é um objeto generico para um jogo (soccer\+Game) no qual foi usado adaptadores para representar o tipo do jogo \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmediator_pattern_1_1_dalla_favera_a96c0fbf7e2f33a3b8176c1993f6cf8e2}\label{classmediator_pattern_1_1_dalla_favera_a96c0fbf7e2f33a3b8176c1993f6cf8e2}} 
+\index{mediatorPattern.DallaFavera@{mediatorPattern.DallaFavera}!receberMensagem@{receberMensagem}}
+\index{receberMensagem@{receberMensagem}!mediatorPattern.DallaFavera@{mediatorPattern.DallaFavera}}
+\subsubsection{\texorpdfstring{receberMensagem()}{receberMensagem()}}
+{\footnotesize\ttfamily void mediator\+Pattern.\+Dalla\+Favera.\+receber\+Mensagem (\begin{DoxyParamCaption}\item[{String}]{mensagem }\end{DoxyParamCaption})}
+
+
+
+Metodo implementa uma recepção de mensagem entre os Colleagues. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mensagem} & é uma String contendo a informação recebida \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\begin{DoxyWarning}{Warning}
+atualmente utilizada apenas para debug de comunicação 
+\end{DoxyWarning}
+\mbox{\Hypertarget{classmediator_pattern_1_1_dalla_favera_a7b255e14ecacd6f0bb0e5658ad26437d}\label{classmediator_pattern_1_1_dalla_favera_a7b255e14ecacd6f0bb0e5658ad26437d}} 
+\index{mediatorPattern.DallaFavera@{mediatorPattern.DallaFavera}!toString@{toString}}
+\index{toString@{toString}!mediatorPattern.DallaFavera@{mediatorPattern.DallaFavera}}
+\subsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily String mediator\+Pattern.\+Dalla\+Favera.\+to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implementação do metodo to\+String para vizualização de informações da classe. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna String com informações 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/mediator\+Pattern/\mbox{\hyperlink{_dalla_favera_8java}{Dalla\+Favera.\+java}}\end{DoxyCompactItemize}

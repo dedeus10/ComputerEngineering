@@ -1,0 +1,226 @@
+\hypertarget{classmediator_pattern_1_1_mediator_message}{}\section{mediator\+Pattern.\+Mediator\+Message Class Reference}
+\label{classmediator_pattern_1_1_mediator_message}\index{mediatorPattern.MediatorMessage@{mediatorPattern.MediatorMessage}}
+Inheritance diagram for mediator\+Pattern.\+Mediator\+Message\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classmediator_pattern_1_1_mediator_message}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classmediator_pattern_1_1_mediator_message_aab9ae2245a91cbd0d7c7b030da230bce}{Mediator\+Message}} ()
+\begin{DoxyCompactList}\small\item\em Construtor do método. Cria uma nova instancia e cria a lista de contatos. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classmediator_pattern_1_1_mediator_message_ab90489c21ee0b6ac6cfd31485a1ab627}{adicionar\+Colleague}} (\mbox{\hyperlink{classmediator_pattern_1_1_colleague}{Colleague}} colleague)
+\begin{DoxyCompactList}\small\item\em Implementação do metodo que adiciona um \mbox{\hyperlink{classmediator_pattern_1_1_colleague}{Colleague}} aos contatos do mediator. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classmediator_pattern_1_1_mediator_message_a24da9666fc7c515b4b1ae19315f44e9c}{remove\+Colleague}} (\mbox{\hyperlink{classmediator_pattern_1_1_colleague}{Colleague}} colleague)
+\begin{DoxyCompactList}\small\item\em Implementação do metodo que remove um \mbox{\hyperlink{classmediator_pattern_1_1_colleague}{Colleague}} dos contatos do mediator. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classmediator_pattern_1_1_mediator_message_a2c346974e11a4d9e5d6d7322dfd86d62}{size\+Of\+Establishment}} ()
+\begin{DoxyCompactList}\small\item\em Implementação do metodo que exibe N° de estabelecimentos cadastrados. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classmediator_pattern_1_1_mediator_message_ad6d32392f6443c3024ef6917ba5abd86}{list\+Establishment}} ()
+\begin{DoxyCompactList}\small\item\em Implementação do metodo que lista os estabelecimentos cadastrados. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classmediator_pattern_1_1_mediator_message_a33d287de4248954e4a9bfeaf8f1de626}{enviar}} (String mensagem, \mbox{\hyperlink{classmediator_pattern_1_1_colleague}{Colleague}} colleague)
+\begin{DoxyCompactList}\small\item\em Implementação do metodo que envia um broadcast para os colleagues. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classmediator_pattern_1_1_mediator_message_a5371ff6847a4c3842737c89dbb891cbe}{propor\+Oferta}} (\mbox{\hyperlink{classtemplate_pattern_1_1soccer_game}{soccer\+Game}} game)
+\begin{DoxyCompactList}\small\item\em Implementação do metodo que intermedia a comunicação com os estabelecimentos, pedindo para mostrarem as ofertas. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classmediator_pattern_1_1_mediator_message_a59667d8a26b4ead1cc624acfb1dc1100}{marcando\+Jogo}} (\mbox{\hyperlink{classtemplate_pattern_1_1soccer_game}{soccer\+Game}} game)
+\begin{DoxyCompactList}\small\item\em Implementação do metodo que efetivamente marca o jogo depois do usuario ter escolhido. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Array\+List$<$ \mbox{\hyperlink{classmediator_pattern_1_1_colleague}{Colleague}} $>$ \mbox{\hyperlink{classmediator_pattern_1_1_mediator_message_a24221c0b2cec8ec1956163ddb1d93a14}{contatos}}
+\begin{DoxyCompactList}\small\item\em @list contatos é uma Lista de contatos do mediator \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classmediator_pattern_1_1_mediator_message_aab9ae2245a91cbd0d7c7b030da230bce}\label{classmediator_pattern_1_1_mediator_message_aab9ae2245a91cbd0d7c7b030da230bce}} 
+\index{mediatorPattern.MediatorMessage@{mediatorPattern.MediatorMessage}!MediatorMessage@{MediatorMessage}}
+\index{MediatorMessage@{MediatorMessage}!mediatorPattern.MediatorMessage@{mediatorPattern.MediatorMessage}}
+\subsubsection{\texorpdfstring{MediatorMessage()}{MediatorMessage()}}
+{\footnotesize\ttfamily mediator\+Pattern.\+Mediator\+Message.\+Mediator\+Message (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construtor do método. Cria uma nova instancia e cria a lista de contatos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classmediator_pattern_1_1_mediator_message_ab90489c21ee0b6ac6cfd31485a1ab627}\label{classmediator_pattern_1_1_mediator_message_ab90489c21ee0b6ac6cfd31485a1ab627}} 
+\index{mediatorPattern.MediatorMessage@{mediatorPattern.MediatorMessage}!adicionarColleague@{adicionarColleague}}
+\index{adicionarColleague@{adicionarColleague}!mediatorPattern.MediatorMessage@{mediatorPattern.MediatorMessage}}
+\subsubsection{\texorpdfstring{adicionarColleague()}{adicionarColleague()}}
+{\footnotesize\ttfamily void mediator\+Pattern.\+Mediator\+Message.\+adicionar\+Colleague (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmediator_pattern_1_1_colleague}{Colleague}}}]{colleague }\end{DoxyParamCaption})}
+
+
+
+Implementação do metodo que adiciona um \mbox{\hyperlink{classmediator_pattern_1_1_colleague}{Colleague}} aos contatos do mediator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em colleague} & estabelecimento a ser adicionado \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\begin{DoxyWarning}{Warning}
+preferencialmente acessar via comandos root do sistema 
+\end{DoxyWarning}
+\mbox{\Hypertarget{classmediator_pattern_1_1_mediator_message_a33d287de4248954e4a9bfeaf8f1de626}\label{classmediator_pattern_1_1_mediator_message_a33d287de4248954e4a9bfeaf8f1de626}} 
+\index{mediatorPattern.MediatorMessage@{mediatorPattern.MediatorMessage}!enviar@{enviar}}
+\index{enviar@{enviar}!mediatorPattern.MediatorMessage@{mediatorPattern.MediatorMessage}}
+\subsubsection{\texorpdfstring{enviar()}{enviar()}}
+{\footnotesize\ttfamily void mediator\+Pattern.\+Mediator\+Message.\+enviar (\begin{DoxyParamCaption}\item[{String}]{mensagem,  }\item[{\mbox{\hyperlink{classmediator_pattern_1_1_colleague}{Colleague}}}]{colleague }\end{DoxyParamCaption})}
+
+
+
+Implementação do metodo que envia um broadcast para os colleagues. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mensagem} & é a String do pacote \\
+\hline
+{\em colleague} & é o estabelecimento que esta emitindo o broadcast \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\begin{DoxyWarning}{Warning}
+Usada apenas para debug de comunicação nesta versão 
+\end{DoxyWarning}
+
+
+Implements \mbox{\hyperlink{interfacemediator_pattern_1_1_mediator_aa65168a13dac30a0e6becf57997b5cb8}{mediator\+Pattern.\+Mediator}}.
+
+\mbox{\Hypertarget{classmediator_pattern_1_1_mediator_message_ad6d32392f6443c3024ef6917ba5abd86}\label{classmediator_pattern_1_1_mediator_message_ad6d32392f6443c3024ef6917ba5abd86}} 
+\index{mediatorPattern.MediatorMessage@{mediatorPattern.MediatorMessage}!listEstablishment@{listEstablishment}}
+\index{listEstablishment@{listEstablishment}!mediatorPattern.MediatorMessage@{mediatorPattern.MediatorMessage}}
+\subsubsection{\texorpdfstring{listEstablishment()}{listEstablishment()}}
+{\footnotesize\ttfamily void mediator\+Pattern.\+Mediator\+Message.\+list\+Establishment (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implementação do metodo que lista os estabelecimentos cadastrados. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\begin{DoxyWarning}{Warning}
+preferencialmente acessar via comandos root do sistema 
+\end{DoxyWarning}
+\mbox{\Hypertarget{classmediator_pattern_1_1_mediator_message_a59667d8a26b4ead1cc624acfb1dc1100}\label{classmediator_pattern_1_1_mediator_message_a59667d8a26b4ead1cc624acfb1dc1100}} 
+\index{mediatorPattern.MediatorMessage@{mediatorPattern.MediatorMessage}!marcandoJogo@{marcandoJogo}}
+\index{marcandoJogo@{marcandoJogo}!mediatorPattern.MediatorMessage@{mediatorPattern.MediatorMessage}}
+\subsubsection{\texorpdfstring{marcandoJogo()}{marcandoJogo()}}
+{\footnotesize\ttfamily double mediator\+Pattern.\+Mediator\+Message.\+marcando\+Jogo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classtemplate_pattern_1_1soccer_game}{soccer\+Game}}}]{game }\end{DoxyParamCaption})}
+
+
+
+Implementação do metodo que efetivamente marca o jogo depois do usuario ter escolhido. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & é o jogo construido \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna o valor total que deve ser pago pelo jogo 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfacemediator_pattern_1_1_mediator_a93da9c7e1478883a0655796d88b7ee62}{mediator\+Pattern.\+Mediator}}.
+
+\mbox{\Hypertarget{classmediator_pattern_1_1_mediator_message_a5371ff6847a4c3842737c89dbb891cbe}\label{classmediator_pattern_1_1_mediator_message_a5371ff6847a4c3842737c89dbb891cbe}} 
+\index{mediatorPattern.MediatorMessage@{mediatorPattern.MediatorMessage}!proporOferta@{proporOferta}}
+\index{proporOferta@{proporOferta}!mediatorPattern.MediatorMessage@{mediatorPattern.MediatorMessage}}
+\subsubsection{\texorpdfstring{proporOferta()}{proporOferta()}}
+{\footnotesize\ttfamily void mediator\+Pattern.\+Mediator\+Message.\+propor\+Oferta (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classtemplate_pattern_1_1soccer_game}{soccer\+Game}}}]{game }\end{DoxyParamCaption})}
+
+
+
+Implementação do metodo que intermedia a comunicação com os estabelecimentos, pedindo para mostrarem as ofertas. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & é o jogo construido \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfacemediator_pattern_1_1_mediator_ad5219430e61d5602b1f8b7f6b8b35632}{mediator\+Pattern.\+Mediator}}.
+
+\mbox{\Hypertarget{classmediator_pattern_1_1_mediator_message_a24da9666fc7c515b4b1ae19315f44e9c}\label{classmediator_pattern_1_1_mediator_message_a24da9666fc7c515b4b1ae19315f44e9c}} 
+\index{mediatorPattern.MediatorMessage@{mediatorPattern.MediatorMessage}!removeColleague@{removeColleague}}
+\index{removeColleague@{removeColleague}!mediatorPattern.MediatorMessage@{mediatorPattern.MediatorMessage}}
+\subsubsection{\texorpdfstring{removeColleague()}{removeColleague()}}
+{\footnotesize\ttfamily void mediator\+Pattern.\+Mediator\+Message.\+remove\+Colleague (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmediator_pattern_1_1_colleague}{Colleague}}}]{colleague }\end{DoxyParamCaption})}
+
+
+
+Implementação do metodo que remove um \mbox{\hyperlink{classmediator_pattern_1_1_colleague}{Colleague}} dos contatos do mediator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em colleague} & estabelecimento a ser removido \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\begin{DoxyWarning}{Warning}
+preferencialmente acessar via comandos root do sistema 
+\end{DoxyWarning}
+\mbox{\Hypertarget{classmediator_pattern_1_1_mediator_message_a2c346974e11a4d9e5d6d7322dfd86d62}\label{classmediator_pattern_1_1_mediator_message_a2c346974e11a4d9e5d6d7322dfd86d62}} 
+\index{mediatorPattern.MediatorMessage@{mediatorPattern.MediatorMessage}!sizeOfEstablishment@{sizeOfEstablishment}}
+\index{sizeOfEstablishment@{sizeOfEstablishment}!mediatorPattern.MediatorMessage@{mediatorPattern.MediatorMessage}}
+\subsubsection{\texorpdfstring{sizeOfEstablishment()}{sizeOfEstablishment()}}
+{\footnotesize\ttfamily void mediator\+Pattern.\+Mediator\+Message.\+size\+Of\+Establishment (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implementação do metodo que exibe N° de estabelecimentos cadastrados. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\begin{DoxyWarning}{Warning}
+preferencialmente acessar via comandos root do sistema 
+\end{DoxyWarning}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classmediator_pattern_1_1_mediator_message_a24221c0b2cec8ec1956163ddb1d93a14}\label{classmediator_pattern_1_1_mediator_message_a24221c0b2cec8ec1956163ddb1d93a14}} 
+\index{mediatorPattern.MediatorMessage@{mediatorPattern.MediatorMessage}!contatos@{contatos}}
+\index{contatos@{contatos}!mediatorPattern.MediatorMessage@{mediatorPattern.MediatorMessage}}
+\subsubsection{\texorpdfstring{contatos}{contatos}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classmediator_pattern_1_1_colleague}{Colleague}}$>$ mediator\+Pattern.\+Mediator\+Message.\+contatos\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+@list contatos é uma Lista de contatos do mediator 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/mediator\+Pattern/\mbox{\hyperlink{_mediator_message_8java}{Mediator\+Message.\+java}}\end{DoxyCompactItemize}
