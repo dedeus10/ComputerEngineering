@@ -1,0 +1,32 @@
+ Address    Code        Basic                     Source
+
+0x00400000  0x21080001  addi $8,$8,0x00000000 16   	addi $t0, $t0, 0  #carrega dado no reg angle
+0x00400004  0x00084600  sll $8,$8,0x00000018  17   	sll $t0, $t0, 24  #desloca angle 
+0x00400008  0x3c01009b  lui $1,0x0000009b     19   	addi $t2, $zero, 0x9B74ED #carrega valor inicial de x
+0x0040000c  0x342174ed  ori $1,$1,0x000074ed       
+0x00400010  0x00015020  add $10,$0,$1              
+0x00400014  0x21290020  addi $9,$9,0x00000020 21   	addi $t1, $t1, 32 #Carrega valor de iterações
+0x00400018  0x01c9c82a  slt $25,$14,$9        24   	slt $t9,$t6, $t1  #Se i<it t9 recebe 1
+0x0040001c  0x13200014  beq $25,$0,0x00000014 25   	beq $t9,$zero, fim  #Se t9 for igual a zero pula pro fim
+0x00400020  0x01cab007  srav $22,$10,$14      29   	srav $s6, $t2, $t6 # shift aritmético do x (x>>i)
+0x00400024  0x01cbb807  srav $23,$11,$14      30   	srav $s7, $t3, $t6 # shift aritmético do y (y>>i)
+0x00400028  0x3c011001  lui $1,0x00001001     34   	la $s5, angleTable #carrega o endereço inicial do array
+0x0040002c  0x34350004  ori $21,$1,0x00000004      
+0x00400030  0x02b8a820  add $21,$21,$24       35   	add $s5, $s5, $t8 #carrega o valor do angleTable[i]
+0x00400034  0x8eb50000  lw $21,0x00000000($21)36   	lw $s5, ($s5)	
+0x00400038  0x01e8c82a  slt $25,$15,$8        40   	slt $t9,$t7,$t0  #Se angle < sumAngle deu bret
+0x0040003c  0x13200004  beq $25,$0,0x00000004 41   	beq $t9, $zero, else # se t9 != zero vai pro else
+0x00400040  0x01576022  sub $12,$10,$23       46   	sub $t4, $t2, $s7  # x_new = x - (y>>i);
+0x00400044  0x01766820  add $13,$11,$22       47   	add $t5, $t3, $s6 #y_new = y + (x>>i);
+0x00400048  0x01f57820  add $15,$15,$21       48   	add $t7, $t7, $s5 #sA = sA + angleTable[i]
+0x0040004c  0x08100017  j 0x0040005c          50   	j fimfor
+0x00400050  0x01576020  add $12,$10,$23       53   	add $t4, $t2, $s7  # x_new = x + (y>>i);
+0x00400054  0x01766822  sub $13,$11,$22       54   	sub $t5, $t3, $s6 #y_new = y - (x>>i);
+0x00400058  0x01f57822  sub $15,$15,$21       55   	sub $t7, $t7, $s5 #sA = sA - angleTable[i
+0x0040005c  0x01805020  add $10,$12,$0        58   	add $t2, $t4, $zero  # x <- xnew
+0x00400060  0x01a05820  add $11,$13,$0        59   	add $t3, $t5, $zero #y <- ynew
+0x00400064  0x21ce0001  addi $14,$14,0x000000060   	addi $t6, $t6, 1 # i++;
+0x00400068  0x23180004  addi $24,$24,0x000000061   	addi $t8, $t8, 4 #j+=4 Pra endereçar a memoria (words) 
+0x0040006c  0x08100006  j 0x00400018          62   	j for
+0x00400070  0x000a8020  add $16,$0,$10        65   	add $s0, $zero, $t2  #faz um store word no S0 salvando os valores
+0x00400074  0x000b8820  add $17,$0,$11        66   	add $s1, $zero, $t3  #faz um store word no S1 salvando os valores

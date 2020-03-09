@@ -1,0 +1,363 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/projetos/rar
+Econtrolpath
+Z0 w1479724159
+Z1 DPx4 work 14 cordic_package 0 22 PKfDoh8JYP^zgAN2B[`nf2
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/ProjectCordic
+Z5 8C:/ProjectCordic/ControlPath.vhd
+Z6 FC:/ProjectCordic/ControlPath.vhd
+l0
+L12
+VMf_Q`IWC?Hkka]F`6>S3J1
+!s100 R^5icOoe`nTk[Mim7dW=73
+Z7 OP;C;10.4a;61
+32
+Z8 !s110 1479733757
+!i10b 1
+Z9 !s108 1479733757.000000
+Z10 !s90 -reportprogress|300|-work|work|C:/ProjectCordic/ControlPath.vhd|
+Z11 !s107 C:/ProjectCordic/ControlPath.vhd|
+!i113 1
+Z12 o-work work -O0
+Z13 tExplicit 1
+Abehavioral
+R1
+R2
+R3
+Z14 DEx4 work 11 controlpath 0 22 Mf_Q`IWC?Hkka]F`6>S3J1
+l28
+L25
+V^SinP^Z9n40Ki3oOI9[c;0
+!s100 4VjJFK>N[j>B9n6YkNgh`3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ecordic
+Z15 w1479733730
+R1
+Z16 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z17 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z18 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R2
+R3
+R4
+Z19 8C:/ProjectCordic/Cordic.vhd
+Z20 FC:/ProjectCordic/Cordic.vhd
+l0
+L13
+VQ=@D9FEODS[=>[kW?IfQd0
+!s100 PcP??4LgJH6:[SWT[gGcm3
+R7
+32
+Z21 !s110 1479733761
+!i10b 1
+Z22 !s108 1479733761.000000
+Z23 !s90 -reportprogress|30|-work|work|C:/ProjectCordic/Cordic.vhd|
+Z24 !s107 C:/ProjectCordic/Cordic.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R16
+R17
+R18
+R2
+R3
+Z25 DEx4 work 6 cordic 0 22 Q=@D9FEODS[=>[kW?IfQd0
+l80
+L75
+V:X`IADDVFWI2L=ejjj5?D2
+!s100 ;IJNz@3MgN7cdHP9n_Y:A2
+R7
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R12
+R13
+Astructural
+Z26 DEx4 work 8 datapath 0 22 ]:=O109i8d_kEaEK31?T02
+R14
+R1
+R16
+R17
+R18
+R2
+R3
+R25
+l39
+L34
+V8^6jkn[KLKPGhh:n^L<KJ1
+!s100 ed=DXDShhWDkEnYHa4z`C3
+R7
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R12
+R13
+Pcordic_package
+R2
+R3
+w1479724407
+R4
+8C:/ProjectCordic/CORDIC_pkg.vhd
+FC:/ProjectCordic/CORDIC_pkg.vhd
+l0
+L9
+VPKfDoh8JYP^zgAN2B[`nf2
+!s100 VPTBi6o0]GEAbCdWMiPnI0
+R7
+32
+!s110 1479733756
+!i10b 1
+!s108 1479733756.000000
+!s90 -reportprogress|300|-work|work|C:/ProjectCordic/CORDIC_pkg.vhd|
+!s107 C:/ProjectCordic/CORDIC_pkg.vhd|
+!i113 1
+R12
+R13
+Ecordic_tb
+Z27 w1479724317
+R16
+R2
+R3
+R4
+Z28 8C:/ProjectCordic/CORDIC_tb.vhd
+Z29 FC:/ProjectCordic/CORDIC_tb.vhd
+l0
+L12
+V5QX[@@:@JPniDN9ioW8i^1
+!s100 FQ2Fz16zjAUiJ@81mHES32
+R7
+32
+Z30 !s110 1479733762
+!i10b 1
+R22
+Z31 !s90 -reportprogress|30|-work|work|C:/ProjectCordic/CORDIC_tb.vhd|
+Z32 !s107 C:/ProjectCordic/CORDIC_tb.vhd|
+!i113 1
+R12
+R13
+Atb
+Z33 DPx4 work 12 util_package 0 22 KHW[F]=;lLK`2c6]T26]N2
+Z34 DEx4 work 6 memory 0 22 Jj@OalUL4ha>?[OKbbUgk3
+R1
+R17
+R18
+R25
+R16
+R2
+R3
+Z35 DEx4 work 9 cordic_tb 0 22 5QX[@@:@JPniDN9ioW8i^1
+l25
+L17
+Z36 VHM3=g=jKQen;nX7FMT8O<2
+Z37 !s100 bXa]7So`ozTJnE8P2jhE]3
+R7
+32
+R30
+!i10b 1
+R22
+R31
+R32
+!i113 1
+R12
+R13
+Edatapath
+Z38 w1479724330
+R1
+R16
+R17
+R18
+R2
+R3
+R4
+Z39 8C:/ProjectCordic/DataPath.vhd
+Z40 FC:/ProjectCordic/DataPath.vhd
+l0
+L13
+V]:=O109i8d_kEaEK31?T02
+!s100 18VYIM<^=FnJjLh3Nz4Cn0
+R7
+32
+Z41 !s110 1479733758
+!i10b 1
+Z42 !s108 1479733758.000000
+Z43 !s90 -reportprogress|300|-work|work|C:/ProjectCordic/DataPath.vhd|
+Z44 !s107 C:/ProjectCordic/DataPath.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+Z45 DEx4 work 13 registernbits 0 22 TDWj6U01H;MX1>LRGh[_42
+R1
+R16
+R17
+R18
+R2
+R3
+R26
+l38
+L31
+VZGk>7OchX]V?[0IPnA03K2
+!s100 ZnzFES;W5:I[k6hZ9RZ4h1
+R7
+32
+R41
+!i10b 1
+R42
+R43
+R44
+!i113 1
+R12
+R13
+Ememory
+Z46 w1479724432
+R33
+R16
+R2
+R3
+R4
+Z47 8C:/ProjectCordic/Memory.vhd
+Z48 FC:/ProjectCordic/Memory.vhd
+l0
+L14
+VJj@OalUL4ha>?[OKbbUgk3
+!s100 9U2`5eMgJ9T3O>Df=WdDf2
+R7
+32
+Z49 !s110 1479733748
+!i10b 1
+Z50 !s108 1479733748.000000
+Z51 !s90 -reportprogress|300|-work|work|C:/ProjectCordic/Memory.vhd|
+Z52 !s107 C:/ProjectCordic/Memory.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R33
+R16
+R2
+R3
+R34
+l99
+L29
+Vc]VcRGTVNShI2f2h4155z3
+!s100 6<2a1bn:KKe?fO6c;FX=_2
+R7
+32
+R49
+!i10b 1
+R50
+R51
+R52
+!i113 1
+R12
+R13
+Eregisternbits
+Z53 w1479724382
+R16
+R2
+R3
+R4
+Z54 8C:/ProjectCordic/RegisterNbits.vhd
+Z55 FC:/ProjectCordic/RegisterNbits.vhd
+l0
+L10
+VTDWj6U01H;MX1>LRGh[_42
+!s100 cY`NgnIEBigoN5FZ4;eAW0
+R7
+32
+Z56 !s110 1479733743
+!i10b 1
+Z57 !s108 1479733743.000000
+Z58 !s90 -reportprogress|300|-work|work|C:/ProjectCordic/RegisterNbits.vhd|
+Z59 !s107 C:/ProjectCordic/RegisterNbits.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R16
+R2
+R3
+R45
+l26
+L25
+VOPh3@9KGK1[WDe7BASaCN3
+!s100 8KhCLH1VMPD[nGYOe[bK]3
+R7
+32
+R56
+!i10b 1
+R57
+R58
+R59
+!i113 1
+R12
+R13
+Putil_package
+R2
+R3
+Z60 w1479724453
+R4
+Z61 8C:/ProjectCordic/Util_package.vhd
+Z62 FC:/ProjectCordic/Util_package.vhd
+l0
+L9
+VKHW[F]=;lLK`2c6]T26]N2
+!s100 @<`X[SzaNdL0K:F@ho=NM3
+R7
+32
+b1
+Z63 !s110 1479733742
+!i10b 1
+Z64 !s108 1479733742.000000
+Z65 !s90 -reportprogress|300|-work|work|C:/ProjectCordic/Util_package.vhd|
+Z66 !s107 C:/ProjectCordic/Util_package.vhd|
+!i113 1
+R12
+R13
+Bbody
+R33
+R2
+R3
+l0
+L22
+Vn^_]>A8E@CC5ZG=cEdKB:1
+!s100 eS;4fOhl1d@Eo0Wz:kinh3
+R7
+32
+R63
+!i10b 1
+R64
+R65
+R66
+!i113 1
+R12
+R13
+nbody
